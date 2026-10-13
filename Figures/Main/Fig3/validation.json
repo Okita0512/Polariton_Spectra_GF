@@ -1,0 +1,11 @@
+{
+  "active_input_count": 40,
+  "active_input_sha256": "4af5c71c6738ef0e8d88f6fde822e402da1ff88f4061741e7b10dc5441c50d3b",
+  "benchmark_series": 5,
+  "collective_coupling_meV": 136.2,
+  "hopfield_reference_lines": 1,
+  "output": "Figures/Main/Fig3/Fig3.pdf",
+  "role": "main Fig. 3, LP-only",
+  "scba_curves": 8,
+  "validation": "PASS"
+}

@@ -1,0 +1,20 @@
+Two-site Frenkel dimer G-only SCBA validation
+model = two equivalent sites with independent identical local baths
+lambda_meV_per_site = 30.0
+omega_f_meV = 24.8
+temperature_K = 300.0
+H12 = J
+parallel_dipole = (1,1)/sqrt(2)
+number_of_J_values = 9
+internal_omega_step_meV = 0.05000000
+maximum_final_residual_au = 9.7879504267614797e-11
+maximum_positive_Im_Sigma_au = -1.6756190973387745e-10
+minimum_spectral_eigenvalue_au_inverse = 2.7779228260047846e-04
+maximum_site_self_energy_difference_au = 0.0000000000000000e+00
+maximum_channel_sum_rule_error = 9.2816134615314461e-05
+sum_rule_enforcement = enforced
+J_sign_pair_max_sigma_difference_au = 0.0000000000000000e+00
+J_sign_pair_max_local_G_difference_au_inverse = 0.0000000000000000e+00
+J_sign_pair_max_channel_exchange_difference_au_inverse = 0.0000000000000000e+00
+J_zero_vs_one_site_normalized_max_abs = 2.6089614024726870e-08
+status = passed

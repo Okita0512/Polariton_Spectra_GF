@@ -1,0 +1,39 @@
+{
+    "case": "J_p0_meV",
+    "model": "two_equivalent_Frenkel_excitons_independent_local_Drude_baths",
+    "basis": [
+        "dummy_cavity_decoupled",
+        "ground",
+        "site_1",
+        "site_2"
+    ],
+    "J_meV": 0.0,
+    "J_au": 0.0,
+    "lambda_meV_per_site": 30.0,
+    "lambda_au_per_site": 0.0011024792295669346,
+    "omega_f_meV": 24.8,
+    "omega_f_au": 0.0009113828297753328,
+    "temperature_K": 300.0,
+    "temperature_au": 0.0009500446267629345,
+    "E00_eV": 2.0,
+    "vertical_site_energy_eV": 2.03,
+    "bare_bright_energy_eV": 2.03,
+    "bare_dark_energy_eV": 2.03,
+    "dipole": "(site_1 + site_2)/sqrt(2), equal and parallel",
+    "dummy_cavity_coupling": 0.0,
+    "lindblad_rates": [
+        0.0,
+        0.0
+    ],
+    "scba_eta_meV_for_later_comparison": 0.1,
+    "scba_eta_encoded_as_physical_HEOM_rate": false,
+    "pade": 2,
+    "npsd": 4,
+    "lmax": 20,
+    "nmax": 1000000,
+    "ferr": 1e-06,
+    "static_error": 1e-06,
+    "w1max_eV_two_sided": 6.4,
+    "nt1": 32000,
+    "nominal_frequency_spacing_meV": 0.2
+}

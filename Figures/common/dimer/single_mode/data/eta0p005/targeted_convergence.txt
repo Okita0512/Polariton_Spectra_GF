@@ -1,0 +1,17 @@
+Fig. S7-S8 targeted cutoff/grid convergence
+generated_utc=2026-09-29T03:25:51+00:00
+command=python3 Figures/common/dimer/single_mode/validate_targeted_convergence.py
+production Delta x=0.002; half-step Delta x=0.001
+ED N_vib=10 -> 12; difference-mode matrix dimension 20 -> 24
+J0_S0p10 stored_w=0.0214997398968 cutoff_delta_w=+2.532696274926e-15 half_step_delta_w=-8.839696472758e-07 combined_delta_w=-8.839696503012e-07
+Jp_max_S0p10_r0p800 stored_w=0.035450901461 cutoff_delta_w=-1.311450947838e-15 half_step_delta_w=-5.158216858953e-06 combined_delta_w=-5.158216868612e-06
+Jp_off_S0p10_r1p350 stored_w=0.0258111550362 cutoff_delta_w=-2.386979502944e-15 half_step_delta_w=-1.575939682433e-07 combined_delta_w=-1.575939679310e-07
+PASS production_reproduces_stored_w value=0.000000000000e+00 threshold<=5.000000000000e-10
+PASS numerical_delta_below_one_percent_of_displayed_error value=1.455031227990e-04 threshold<=1.000000000000e-02
+PASS scba_absolute_fixed_point_residual value=1.110223024625e-16 threshold<=1.000000000000e-09
+PASS scba_relative_fixed_point_residual value=1.891699413723e-16 threshold<=1.000000000000e-08
+PASS retarded_self_energy_causality value=0.000000000000e+00 threshold<=5.000000000000e-10
+maximum_numerical_delta_w=5.158216868612e-06
+maximum_delta_over_displayed_w=1.455031227990e-04
+status = PASS
+failures = 0

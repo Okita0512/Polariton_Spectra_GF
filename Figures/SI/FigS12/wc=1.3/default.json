@@ -1,0 +1,18 @@
+{
+    "syst": {
+        "hamsmFile": "inp_hamsm.mat",
+        "qmdsmFile": "inp_qmdsm.mat",
+        "intmFile": "inp_intm.mat"
+    },
+    "bath": {
+        "modemFile": "inp_modem.mat",
+        "etalmFile": "inp_etalm.mat",
+        "etarmFile": "inp_etarm.mat",
+        "etaamFile": "inp_etaam.mat",
+        "expnmFile": "inp_expnm.mat",
+        "delrmFile": "inp_delrm.mat"
+    },
+    "hidx": {
+        "expnmFile": "inp_expnm.mat"
+    }
+}

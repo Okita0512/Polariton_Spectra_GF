@@ -1,0 +1,22 @@
+{
+  "schema_version": 2,
+  "source_root": "Figures/common/dimer/single_mode/data/eta0p005",
+  "description": "Fresh dimer figure-profile calculation at eta/nu0=0.005 on the preserved production grid Delta x=0.002; this is distinct from eta/nu0=0.025 in final cavity Figs. S4 and S5 (publication folders FigS4/FigS5).",
+  "files": {
+    "manifest": "manifest.csv",
+    "summary": "mesh.csv",
+    "line_scan": "mesh.csv",
+    "baselines": "baselines.csv",
+    "extrema": "extrema.csv",
+    "cuts": "cuts.csv",
+    "validation_json": "validation.json",
+    "final_audit": "validation.txt",
+    "targeted_convergence_csv": "targeted_convergence.csv",
+    "targeted_convergence_json": "targeted_convergence.json",
+    "targeted_convergence_text": "targeted_convergence.txt"
+  },
+  "theory_note": {
+    "tex": "Figures/common/dimer/notes/single_mode_dimer_scba_theory.tex",
+    "pdf": "Figures/common/dimer/notes/single_mode_dimer_scba_theory.pdf"
+  }
+}

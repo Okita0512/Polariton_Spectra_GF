@@ -1,0 +1,5 @@
+display_order,panel,case_id,role,huang_rhys,j_sign,j_meV,r_abs,omega0_meV,eta_over_omega0,scba_w_over_omega0,ed_raw_area,scba_raw_area,scba_raw_area_relative_difference,archive_file
+1,a,primary_S0p05_Jp_r1p45,off-integer background,0.05,1,25.0,1.45,34.48275862068966,0.009999999999999998,0.007181037748861302,3.140481370720377,3.1404813707506736,9.647137014362037e-12,results/frequency_scan/spectra/primary_S0p05_Jp_r1p45.npz
+2,b,primary_S0p05_Jp_r0p88,first odd allowed feature,0.05,1,25.0,0.88,56.81818181818182,0.01,0.01270286794858316,3.140481370772952,3.1404813708001775,8.669159241777986e-12,results/frequency_scan/spectra/primary_S0p05_Jp_r0p88.npz
+3,c,primary_S0p05_Jp_r1p94,even parity-forbidden control,0.05,1,25.0,1.94,25.77319587628866,0.010000000000000002,0.01811158376079237,3.1404813705590566,3.140481370569667,3.3785200896921454e-12,results/frequency_scan/spectra/primary_S0p05_Jp_r1p94.npz
+4,d,primary_S0p05_Jm_r0p88,negative-$J$ counterpart,0.05,-1,-25.0,0.88,56.81818181818182,0.01,0.002614230923742454,3.140481369828371,3.140481369856995,9.114594464752378e-12,results/frequency_scan/spectra/primary_S0p05_Jm_r0p88.npz

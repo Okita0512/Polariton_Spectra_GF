@@ -1,0 +1,8 @@
+Revision 23 Green's-function algebra checks
+status = PASS
+2x2 inversion versus Schur complement error = 5.515e-15
+N=1 identity Gbar=GBB error = 0.000e+00
+g_c=0 identity GBB=GD=Gbar error = 0.000e+00
+Sigma=0 block identity error = 7.994e-15
+J=0 Fan self-energy = 0.0
+No spectra or benchmark calculations were run.

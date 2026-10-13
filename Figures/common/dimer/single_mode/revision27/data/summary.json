@@ -1,0 +1,136 @@
+{
+  "command": "python3 Figures/common/dimer/single_mode/revision27/audit_dimer_revision27.py",
+  "counts": {
+    "convergence_rows": 48,
+    "fine_diagnostic_cases": 4,
+    "parity_cases": 2,
+    "refined_r_points": 34
+  },
+  "generated_utc": "2026-10-12T00:40:26+00:00",
+  "maxima": {
+    "maximum_abs_cutoff12_delta_w": 2.2773449792623524e-14,
+    "maximum_abs_dx0p0005_delta_w": 3.4309095582191196e-05,
+    "maximum_abs_dx0p001_delta_w": 2.7946668279512504e-05,
+    "maximum_abs_fine_cutoff12_delta_from_production": 3.430909558391204e-05,
+    "maximum_abs_half_cell_delta_w": 5.8424590177443e-05,
+    "maximum_abs_midpoint_minus_chord": 4.611980837412877e-05,
+    "maximum_abs_support_m16_p16_minus_m18_p18": 1.0962949051063209e-06,
+    "maximum_abs_support_m20_p20_minus_m18_p18": 8.768526881183791e-07,
+    "maximum_opposite_parity_H_block": 0.0,
+    "maximum_opposite_parity_source_norm": 0.0,
+    "maximum_parity_commutator": 0.0,
+    "maximum_scba_abs_residual_eV": 1.1123893155135927e-16,
+    "maximum_scba_positive_im_sigma_eV": 0.0,
+    "maximum_tracked_even_crossing_gap": 2.3281376826389533e-13,
+    "minimum_spectrum": 7.765891648487204e-05
+  },
+  "outputs": {
+    "cdf_regions": "data/cdf_region_metrics.csv",
+    "convergence": "data/convergence.csv",
+    "diagnosis": "data/diagnosis.txt",
+    "diagnostic_plot": "plots/r2_spectral_cdf_diagnostics.pdf",
+    "even_branches": "data/even_branch_tracking.csv",
+    "parity": "data/parity_checks.csv",
+    "peaks": "data/peak_basin_metrics.csv",
+    "pipeline": "data/pipeline_audit.json",
+    "refined_r": "data/refined_r_points.csv"
+  },
+  "pipeline": {
+    "authoritative_mesh": "Figures/common/dimer/single_mode/data/eta0p005/mesh.csv",
+    "authoritative_mesh_sha256": "6cd6eb66156f8db28a858ae14053ffc9867484b7d2d97a7d4a67fa735c297772",
+    "duplicate_case_ids": 0,
+    "fig_s6_contains_all_production_case_ids": true,
+    "fig_s6_exact_calculated_merged_source": true,
+    "fig_s6_processed_rows": 2248,
+    "fig_s7_exact_calculated_overlap_with_s6": true,
+    "fig_s7_expected_overlap_rows": 167,
+    "fig_s7_processed_rows": 167,
+    "generated_utc": "2026-10-12T00:40:25+00:00",
+    "groups": {
+      "S0.02_J+1": {
+        "maximum_step": 0.10000000000000053,
+        "minimum_step": 0.004999999999999893,
+        "rows": 369,
+        "same_shared_r_mesh": true,
+        "strictly_increasing": true,
+        "unique_r": 369
+      },
+      "S0.02_J-1": {
+        "maximum_step": 0.10000000000000053,
+        "minimum_step": 0.004999999999999893,
+        "rows": 369,
+        "same_shared_r_mesh": true,
+        "strictly_increasing": true,
+        "unique_r": 369
+      },
+      "S0.05_J+1": {
+        "maximum_step": 0.10000000000000053,
+        "minimum_step": 0.004999999999999893,
+        "rows": 369,
+        "same_shared_r_mesh": true,
+        "strictly_increasing": true,
+        "unique_r": 369
+      },
+      "S0.05_J-1": {
+        "maximum_step": 0.10000000000000053,
+        "minimum_step": 0.004999999999999893,
+        "rows": 369,
+        "same_shared_r_mesh": true,
+        "strictly_increasing": true,
+        "unique_r": 369
+      },
+      "S0.1_J+1": {
+        "maximum_step": 0.10000000000000053,
+        "minimum_step": 0.004999999999999893,
+        "rows": 369,
+        "same_shared_r_mesh": true,
+        "strictly_increasing": true,
+        "unique_r": 369
+      },
+      "S0.1_J-1": {
+        "maximum_step": 0.10000000000000053,
+        "minimum_step": 0.004999999999999893,
+        "rows": 369,
+        "same_shared_r_mesh": true,
+        "strictly_increasing": true,
+        "unique_r": 369
+      }
+    },
+    "mesh_rows": 2214,
+    "plot_transform": "sorted calculated points connected directly; no resampling, interpolation, smoothing, filtering, or downsampling",
+    "publication_pdf_path_simplification_after_revision27": false,
+    "source_cuts_sha256": "ac34e9054142497b58f9901172d7325089060b28b97ce31ee114b60686a92e88",
+    "unique_case_ids": 2214
+  },
+  "publication_data_modified": false,
+  "schema_version": "revision27_dimer_focused_audit_v1",
+  "settings": {
+    "J_abs_meV": 25.0,
+    "cutoff_test": [
+      10,
+      12
+    ],
+    "eta_over_nu0": 0.005,
+    "fine_dx": [
+      0.001,
+      0.0005
+    ],
+    "grid_phase_test_cells": 0.5,
+    "internal_x": [
+      -32.0,
+      24.0
+    ],
+    "metric_support_x": [
+      -18.0,
+      18.0
+    ],
+    "production_dx": 0.002,
+    "temperature_K": 0.0
+  },
+  "supported_diagnosis": {
+    "limit": "The audit identifies the spectral redistribution but does not decompose a crossed diagram or establish whether a particular SCBA expansion term violates the exact selection rule.",
+    "negative_J_control": "At S=0.10, J<0, r=2, ED and SCBA each retain one aligned dominant central peak; its W is smaller and distributed over central and sideband regions.",
+    "parity": "Exact opposite-parity block/source overlaps vanish. The tracked even branches cross without an avoided gap. The spectral-distance maximum is therefore not evidence for an allowed even-phonon bright-dark transition.",
+    "positive_J_r2": "At the fine-grid positive-J cases, ED has one dominant central peak while SCBA redistributes it among three nearby peaks. The x in [-0.5,0.5] interval contributes 0.934, 0.887, and 0.877 of W for (S,r)=(0.05,1.94), (0.10,1.88), and (0.10,1.94), respectively."
+  }
+}

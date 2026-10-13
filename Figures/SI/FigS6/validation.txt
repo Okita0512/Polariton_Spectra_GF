@@ -1,0 +1,45 @@
+Final Fig. S6 merged dimer validation
+=====================================
+status = PASS
+scan rows = 2248 calculated points
+scan composition = 2214 production points + 34 revision-27 calculated refined-r points
+selected S = 0.02, 0.05, 0.10
+J = +/-25 meV; T = 0 K; eta/nu0 = 0.005
+scan r range = 0.25 .. 5.5
+scan construction = calculated points joined in increasing r
+smoothing/interpolation/filtering/downsampling = none
+spectrum normalization support = x in [-18,18]
+spectrum display window = x in [-1.25,1.55]
+Jacobian = dE=nu0 dx; p_x=nu0 A(E)/integral_[support] A(E)dE
+spectral grid = Delta x=0.002; 18001 support samples; N_vib=10
+r=0.800 spectrum = retrieved validated production archive
+r=1.880 spectrum = regenerated with the verified revision-27 solver at production settings
+
+J=0 baselines
+--------------
+S=0.02: w0=0.00100163799412859
+S=0.05: w0=0.00591142205895807
+S=0.1: w0=0.0214997398967525
+
+Spectral-panel values
+---------------------
+panel (c): S=0.10, J=+25 meV, r=0.800, nu0=62.5 meV, eta=0.3125 meV
+  source = Figures/common/dimer/single_mode/data/eta0p005/spectra/eta005_S0p1_Jp_r0p8.npz
+  source sha256 = f7c3c46aca9eb47e222adfcc6023872d23b3ef92290bae0ba8bd5765edbb2fb8
+  raw areas over E: Exact=3.14103715864493; SCBA=3.14103778709185
+  unit areas over x: Exact=1; SCBA=1
+  w from spectrum=0.0354509009946639; w from scan=0.0354509014609868; absolute difference=4.663e-10
+panel (d): S=0.10, J=+25 meV, r=1.880, nu0=26.5957446808511 meV, eta=0.132978723404255 meV
+  source = Figures/common/dimer/single_mode/revision27/audit_dimer_revision27.py
+  source sha256 = 59ace9402823f2d1abd8385b6098f0881163a7f78498489a3432631b7b6e637e
+  raw areas over E: Exact=3.14103658475035; SCBA=3.14103755014372
+  unit areas over x: Exact=1; SCBA=1
+  w from spectrum=0.0495477202543944; w from scan=0.0495477202544803; absolute difference=8.590e-14
+
+Figure geometry/style
+---------------------
+balanced 2x2 layout; equal scan scales and equal spectral scales
+panel labels occupy the reserved band above each axes
+Exact = black solid; SCBA = red dashed; S uses shared SI colors
+positive-J scan markers c and d identify the spectra below
+no inset and no A-D cut catalog

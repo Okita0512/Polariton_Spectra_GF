@@ -1,0 +1,42 @@
+Fig. S7-S8 eta/nu0=0.005 numerical validation
+generated_utc=2026-08-18T16:58:39+00:00
+production_grid=x in [-32,24], Delta x=0.002, points=28001
+analysis_support=x in [-18,18], points=18001
+SCBA_solver=zero_temperature_ascending_sweep, iterations=1
+SCBA_tolerances=absolute 1e-9 eV, relative 1e-8; iterative_fallback_max_iterations=5000
+W1=independent trapezoidal normalization and weighted CDF-equivalent integration; smoothing=none; peak_normalization=none
+completion=2214 finite-J plus 7 J=0; worker failure aborts
+PASS mesh_rows value=0.000000000000e+00 threshold <= 0.000000000000e+00
+PASS unique_mesh_case_ids value=0.000000000000e+00 threshold <= 0.000000000000e+00
+PASS baseline_rows value=0.000000000000e+00 threshold <= 0.000000000000e+00
+PASS extrema_rows value=0.000000000000e+00 threshold <= 0.000000000000e+00
+PASS cut_rows value=0.000000000000e+00 threshold <= 0.000000000000e+00
+PASS fixed_eta_over_nu0 value=8.673617379884e-19 threshold <= 2.000000000000e-15
+PASS archive_dimensionless_grid_step value=1.999702486932e-15 threshold <= 2.000000000000e-12
+PASS archive_grid_metadata value=0.000000000000e+00 threshold <= 2.000000000000e-12
+PASS archive_analysis_samples value=0.000000000000e+00 threshold <= 0.000000000000e+00
+PASS mesh_raw_area value=5.824927691316e-07 threshold <= 3.000000000000e-06
+PASS mesh_fixed_point value=2.092770401418e-15 threshold <= 2.000000000000e-12
+PASS mesh_causality value=0.000000000000e+00 threshold <= 2.000000000000e-12
+PASS mesh_channel_closure value=3.781697177629e-17 threshold <= 2.000000000000e-12
+PASS mesh_ED_positivity value=2.441542834092e-05 threshold >= -1.000000000000e-12
+PASS mesh_SCBA_positivity value=2.441542830214e-05 threshold >= -1.000000000000e-12
+PASS baseline_raw_area value=5.547748474708e-07 threshold <= 3.000000000000e-06
+PASS baseline_fixed_point value=0.000000000000e+00 threshold <= 2.000000000000e-12
+PASS baseline_causality value=0.000000000000e+00 threshold <= 2.000000000000e-12
+PASS baseline_channel_closure value=0.000000000000e+00 threshold <= 2.000000000000e-12
+PASS baseline_ED_positivity value=9.766174069755e-05 threshold >= -1.000000000000e-12
+PASS baseline_SCBA_positivity value=9.766174055292e-05 threshold >= -1.000000000000e-12
+PASS archive_W1_reproduction value=2.080995958886e-09 threshold <= 3.000000000000e-09
+PASS archive_area_reproduction value=4.980439727298e-09 threshold <= 5.000000000000e-08
+PASS archive_SCBA_area_reproduction value=9.097974484895e-09 threshold <= 5.000000000000e-08
+PASS archive_ED_positivity value=2.007058210438e-04 threshold >= -1.000000000000e-10
+PASS archive_SCBA_positivity value=2.007057919400e-04 threshold >= -1.000000000000e-10
+PASS mesh_count_S0p02_Jm value=0.000000000000e+00 threshold <= 0.000000000000e+00
+PASS mesh_count_S0p02_Jp value=0.000000000000e+00 threshold <= 0.000000000000e+00
+PASS mesh_count_S0p05_Jm value=0.000000000000e+00 threshold <= 0.000000000000e+00
+PASS mesh_count_S0p05_Jp value=0.000000000000e+00 threshold <= 0.000000000000e+00
+PASS mesh_count_S0p1_Jm value=0.000000000000e+00 threshold <= 0.000000000000e+00
+PASS mesh_count_S0p1_Jp value=0.000000000000e+00 threshold <= 0.000000000000e+00
+status = PASS
+failures = 0

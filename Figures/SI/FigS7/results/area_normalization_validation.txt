@@ -1,0 +1,20 @@
+Fig. S9 Drude--Lorentz dimer area-normalization validation
+status = passed
+spectral_panels = 9
+panel_j_present = false
+W1_computed_by_FigS9_driver = false
+signed_J_meV = -100, -50, -25, -12.4, 0, 12.4, 25, 50, 100
+common_support_eV = 0.8000 to 3.1998
+display_window_eV = 1.80 to 2.30
+integration = trapezoidal area integral
+normalization = each nonnegative response separately normalized on common support
+negative_HEOM_tail_handling = tiny Fourier-ringing samples clipped to zero before montage normalization; raw signed area and removed mass retained in CSV
+interpolated_cases = 0
+maximum_normalization_error = 2.220e-16
+maximum_HEOM_negative_area_fraction = 1.736e-05
+maximum_SCBA_negative_area_fraction = 0.000e+00
+minimum_display_window_normalized_density_per_eV = 2.219e-05
+upstream_SCBA_validation = passed (causality, positivity, sum rule, convergence)
+upstream_HEOM_returned_run_validation = passed
+physical_parameters_retuned = false
+omega_f_role = overdamped Drude bath correlation/cutoff scale

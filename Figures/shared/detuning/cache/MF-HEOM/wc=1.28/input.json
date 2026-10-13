@@ -1,0 +1,75 @@
+{
+    "deom": {
+        "syst": {
+            "hamscFile": "inp_hamsc.mat",
+            "qmdscFile": "inp_qmdsc.mat",
+            "hamsmFile": "inp_hamsm.mat",
+            "qmdsmFile": "inp_qmdsm.mat",
+            "intcFile": "inp_intc.mat",
+            "intmFile": "inp_intm.mat",
+            "lbldFile": "inp_lbld.mat",
+            "lbdsFile": "inp_lbds.mat",
+            "g": 0.005005255702233883,
+            "wc": 0.04703911379485588,
+            "N": 10000,
+            "kappa": 0.0016224819328460056,
+            "alpha0Re": 0.0,
+            "alpha0Im": 0.0
+        },
+        "bath": {
+            "modecFile": "inp_modec.mat",
+            "etalcFile": "inp_etalc.mat",
+            "etarcFile": "inp_etarc.mat",
+            "etaacFile": "inp_etaac.mat",
+            "expncFile": "inp_expnc.mat",
+            "delrcFile": "inp_delrc.mat",
+            "modemFile": "inp_modem.mat",
+            "etalmFile": "inp_etalm.mat",
+            "etarmFile": "inp_etarm.mat",
+            "etaamFile": "inp_etaam.mat",
+            "expnmFile": "inp_expnm.mat",
+            "delrmFile": "inp_delrm.mat",
+            "tempm": 0.0009500446267629345,
+            "nmodm": 1,
+            "padem": 2,
+            "npsdm": 4,
+            "jomgm": [
+                {
+                    "jdru": [
+                        [
+                            0.0011024792295669346,
+                            0.0009113828297753327
+                        ]
+                    ]
+                }
+            ]
+        },
+        "hidx": {
+            "expncFile": "inp_expnc.mat",
+            "expnmFile": "inp_expnm.mat",
+            "trun": 0,
+            "lmaxm": 20,
+            "nmaxm": 1000000,
+            "ferrm": 1e-07
+        }
+    },
+    "rhot": {
+        "dt": 0.41341,
+        "nt": 400000,
+        "nk": 1,
+        "xpflag": 1,
+        "staticErr": 0,
+        "rhomFile": "inp_rho0m.mat",
+        "pulse": {
+            "type": "chirped",
+            "ampl": 0.001,
+            "freq": 0.07349861530446232,
+            "sigm": 41.341,
+            "varp": 0.0,
+            "t0": 206.705
+        },
+        "sdipFile": "inp_sdip.mat",
+        "pdipFile": "inp_pdip.mat",
+        "bdipFile": "inp_bdip.mat"
+    }
+}

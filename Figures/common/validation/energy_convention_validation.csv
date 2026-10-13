@@ -1,0 +1,7 @@
+check,S,energy_00_eV,vertical_energy_eV,max_first_six_pole_error_eV,value_eV,reference_eV,passed
+displaced_oscillator_poles,0.0,2.0,2.0,4.440892098500626e-16,2.0,2.0,1
+displaced_oscillator_poles,0.5,2.0,2.1,4.440892098500626e-16,2.0,2.0,1
+displaced_oscillator_poles,1.0,2.0,2.2,4.440892098500626e-16,2.0000000000000004,2.0,1
+displaced_oscillator_poles,2.0,2.0,2.4,4.440892098500626e-16,1.9999999999999998,2.0,1
+cumulant_HEOM_peak_origin,nan,2.0,2.03,nan,2.016,2.016,1
+FigS5_cavity_tuned_to_0_0,nan,2.0,nan,nan,2.0,2.0,1

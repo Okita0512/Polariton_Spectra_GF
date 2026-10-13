@@ -1,0 +1,39 @@
+FigS5 fixed-g_c ED/SCBA validation
+======================================
+status = PASS
+model = single-mode Holstein--Tavis--Cummings, T=0
+rows = outside cavity; inside cavity N=1, 2, 4, 8
+columns = S=0.5, 1.0, 2.0
+E00 = omega_c = 2.0 eV; nu0 = 0.020 eV; eta = 0.0005 eV
+single-molecule g_c = 0.03536 eV inside the cavity
+collective coupling = sqrt(N) g_c (increases with N)
+ED cutoff = Q=28; cutoff check = Q=30 (retained validated check when Lanczos coefficients are reused)
+Lanczos production/check = 5000/4000 steps
+SCBA grid = 1.5--3.2 eV in 0.05-meV steps
+SCBA equation = M^2 G_local(omega-nu0), causal recursion
+plot and area-match interval = 1.8--2.3 eV
+
+Aggregate checks
+----------------
+case_count = True
+phonon_frequency = True
+cavity_resonance = True
+fixed_single_molecule_coupling = True
+max_hermiticity_error = True
+max_collective_coupling_error = True
+max_cutoff_difference = True
+max_lanczos_difference = True
+max_scba_grid_difference = True
+fixed_point_residual = True
+retarded_causality = True
+exact_positivity = True
+scba_positivity = True
+positive_areas = True
+
+max Q=28 -> 30 peak-normalized difference = 4.0771738789063990e-08
+max 4000 -> 5000 Lanczos difference = 2.4898438803332840e-09
+max 0.10 -> 0.05 meV SCBA-grid difference = 9.7747990560852482e-03
+max SCBA fixed-point residual (eV) = 0.0000000000000000e+00
+max positive Im Sigma (eV) = -7.3084123050548085e-08
+minimum exact spectrum (1/eV) = 5.9926610991769781e-03
+minimum SCBA spectrum (1/eV) = 3.5323544683928262e-04

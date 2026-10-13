@@ -1,0 +1,29 @@
+kind,path,sha256,size_bytes,role
+documentation,Figures/SI/FigS6/README.md,03e6c9ea365f698e49d8da08b3c3757a37069576f0ef6580115ca063f518affd,2944,reproduction and provenance
+driver,Figures/SI/FigS6/plot_FigS6.py,fdc9ab42e18ff82ce4aaba2435582b104dbe591cd6ab81485838ec69dbd83191,24056,active merged Fig. S6 driver
+figure,Figures/SI/FigS6/FigS6.pdf,0580c5a5d5b459b7d4de32ebb11285badbabf558b34ee442b2fb67c7cf340330,90043,publication vector PDF
+input,Figures/common/dimer/single_mode/data/eta0p005/baselines.csv,81406965ad1c9911f0ef27b94786f190548f9fa5aaa05476d1317bc376e2c999,1670,seven calculated J=0 baselines
+input,Figures/common/dimer/single_mode/data/eta0p005/cuts.csv,ac34e9054142497b58f9901172d7325089060b28b97ce31ee114b60686a92e88,4765,validated spectral-cut routing including the r=0.800 archive
+input,Figures/common/dimer/single_mode/data/eta0p005/manifest.csv,0c3e6086974fca8999f78f423eca94c5edab381413d5abb550fee1c41ce61541,3618,validated production-profile inventory
+input,Figures/common/dimer/single_mode/data/eta0p005/mesh.csv,6cd6eb66156f8db28a858ae14053ffc9867484b7d2d97a7d4a67fa735c297772,807562,validated 2214-point production scan
+input,Figures/common/dimer/single_mode/data/eta0p005/spectra/eta005_S0p1_Jp_r0p8.npz,f7c3c46aca9eb47e222adfcc6023872d23b3ef92290bae0ba8bd5765edbb2fb8,823107,"actual S=0.10, J=+25 meV, r=0.800 spectrum"
+input,Figures/common/dimer/single_mode/data/eta0p005/targeted_convergence.csv,905ec7387f54db284e5e43df74723c14d9d001f30b69cf88f2c342b3b8fa1118,2805,targeted convergence data
+input,Figures/common/dimer/single_mode/data/eta0p005/targeted_convergence.json,5eef786e0a0bff0b8ac2c99f19df7b9075a3ebad572e63274acd41ac76b7e24c,1982,targeted convergence summary
+input,Figures/common/dimer/single_mode/data/eta0p005/targeted_convergence.txt,72691b4eea75e2b78244e037386e28f0c104d45209882a5eb2477c1a615a379d,1337,targeted convergence PASS report
+input,Figures/common/dimer/single_mode/data/eta0p005/validation.json,7716653106596195c76f585799c335665417bc183be00ab4c3843197a1cbbebf,7509,authoritative production validation record
+input,Figures/common/dimer/single_mode/data/eta0p005/validation.txt,3239b763fb539274f6522fa8c389b6b468a52b33719ba8f9d71f3871a752fd3b,3183,production profile PASS report
+input,Figures/common/dimer/single_mode/data/source_manifest.json,4982f1dfb3822b7b2d7e7aa25b6f0108167968e69b60493841aab8475cd619be,948,routing for the validated eta/nu0=0.005 profile
+input,Figures/common/dimer/single_mode/revision27/data/refined_r_points.csv,714716e68daaeeeb2a825b18cf8cd06300e326024d2eedb2a9b754f09a9e9bcc,15487,34 calculated refined-r scan points
+input,Figures/common/dimer/single_mode/revision27/data/summary.json,6de494bea9f24bd03e3b1c4c7339c2dc8ab01b7739723477775dfde1dc165b69,5339,revision-27 convergence and solver audit
+processed,Figures/SI/FigS6/processed/error_mesh.csv,e83568f7ae3fe123eb3f632941994bf8cb3043034d361b7a51202cfdb2da9df3,428280,calculated scan points drawn in panels a and b
+processed,Figures/SI/FigS6/processed/local_baselines.csv,ad2b70b64915fe127f3ac7cbd73dea35106f7880d52f2e04293c2633ba0afe9e,1012,J=0 baselines drawn in panels a and b
+processed,Figures/SI/FigS6/processed/spectral_provenance.csv,131b97ea21beede278531ebcfe78e28916c94e49b2a2818f44fca338f42ff374,1272,"spectral settings, source hashes, areas, and w checks"
+processed,Figures/SI/FigS6/processed/spectrum_S0p10_Jp_r0p800.csv,0b92e6324fba9d21f38b0f369131cc80f61d1e849d06ae7f3b567944c20aa456,1097281,unit-area arrays drawn in panel c
+processed,Figures/SI/FigS6/processed/spectrum_S0p10_Jp_r1p880.csv,f08875176ddc50942745784ef9fa9220c1878b6f4c3587d1541e634b5991b91d,1057563,unit-area arrays drawn in panel d
+shared code,Figures/common/dimer/single_mode/workflow.py,c9d0fde1df9915006132992973dfd0f00d56fad82a3f94fb01e4baf813588b66,58304,validated data loader and scan merge
+shared style,Figures/common/si_plot_style.py,d35cde71d46c445500da5cddd55bac7c11eed6222d20c578f63e59d3d0bb0cfb,4460,shared SI typography and colors
+solver,Figures/common/dimer/single_mode/revision27/audit_dimer_revision27.py,59ace9402823f2d1abd8385b6098f0881163a7f78498489a3432631b7b6e637e,35140,verified solver path used to regenerate r=1.880
+solver,Figures/common/dimer/single_mode/source/calculate_single_mode_ed.py,05955f8826db886959d20da3be8d2d4857264a19f8adb3ab82370865bb5430c4,46359,exact-spectrum solver
+solver,Figures/common/dimer/single_mode/source/calculate_single_mode_scba.py,b0a7e9139fa91f1ba67b7f40c24afd86391256803cc04dfb134238255cc80441,52462,SCBA spectrum solver
+solver,Figures/common/dimer/single_mode/source/single_mode_common.py,25883d5e8b5cb0a965c4d889104040beb8e73aa41e273c1a64566d162c2664ca,7765,shared model and grid definitions
+validation,Figures/SI/FigS6/validation.txt,267734b164051e449c610c11f66c11e0dcc925d1651e28dfef7a280a86c4432e,2175,figure-specific PASS report

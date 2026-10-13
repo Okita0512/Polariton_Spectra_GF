@@ -1,0 +1,153 @@
+% Editable TikZ source for main-text Fig. 1.
+\begin{minipage}[t]{0.43\columnwidth}
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[
+  every node/.style={font=\small},>=Stealth,
+  paneltag/.style={anchor=north west,inner sep=2pt,font={\fontfamily{phv}\selectfont\LARGE}},
+  mol/.style={circle,draw=blue!65!black,fill=blue!10,minimum size=14pt,inner sep=0pt,line width=0.8pt},
+  gcoupl/.style={->,draw=blue!55!black,line width=0.85pt}]
+\path[use as bounding box] (0,-0.05) rectangle (4.45,3.30);
+\node[paneltag] at (0.05,2.85) {(a)};
+\node[mol] at (1.90,2.15) {\tiny 1};
+\node[mol] at (1.90,1.25) {\tiny 2};
+\node[mol] at (1.90,0.25) {\tiny $N$};
+\node[font=\normalsize] at (1.90,0.78) {$\vdots$};
+\foreach \y in {2.15,1.25,0.25}{
+  \draw[decorate,decoration={snake,amplitude=1.8pt,segment length=5pt},draw=gray!60,line width=0.75pt] (1.73,\y)--(1.10,\y);
+  \draw[gray!55,line width=0.8pt] (1.08,{\y-0.13})--(1.08,{\y+0.13});}
+\node[font=\normalsize,text=gray!50] at (1.08,0.78) {$\vdots$};
+\node[font=\scriptsize,align=right,anchor=east] at (0.92,1.25) {local\\phonon\\bath};
+\draw[gcoupl] (2.07,2.15)--(3.12,1.68);
+\draw[gcoupl] (2.07,1.25)--(3.12,1.25);
+\draw[gcoupl] (2.07,0.25)--(3.12,0.82);
+\node[font=\scriptsize,text=blue!55!black,above=1pt] at (2.60,1.25) {$g_{\rm c}$};
+\draw[draw=orange!60!black,fill=orange!5,line width=1pt] (3.60,1.25) circle (0.46cm);
+\node[font=\scriptsize,text=orange!65!black,align=center] at (3.60,1.25) {cavity\\$\omega_{\rm c}$};
+\end{tikzpicture}}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.56\columnwidth}
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[
+  every node/.style={font=\small},>=Stealth,
+  paneltag/.style={anchor=north west,inner sep=2pt,font={\fontfamily{phv}\selectfont\LARGE}},
+  level/.style={line width=1.5pt},
+  phcoupl/.style={decorate,decoration={snake,amplitude=1.5pt,segment length=4pt,post length=1.5pt},orange!85!black,line width=0.65pt},
+  phhead/.style={->,orange!85!black,line width=0.65pt},
+  effcoupl/.style={decorate,decoration={snake,amplitude=2pt,segment length=5pt,post length=2pt},orange!85!black,line width=1.15pt},
+  effhead/.style={->,orange!85!black,line width=1.15pt}]
+\path[use as bounding box] (0,-0.05) rectangle (5.95,3.30);
+\node[paneltag] at (0.05,2.85) {(b)};
+\draw[level,blue!70!black] (1.25,2.16)--(5.20,2.16) node[anchor=west,font=\footnotesize,text=blue!70!black] {UP};
+\draw[level,red!70!black] (1.25,0.14)--(5.20,0.14) node[anchor=west,font=\footnotesize,text=red!70!black] {LP};
+\fill[gray!18] (2.00,0.82) rectangle (4.10,1.48);
+\draw[gray!45,line width=0.55pt] (2.00,0.82) rectangle (4.10,1.48);
+\foreach \y in {0.93,1.05,1.17,1.29,1.41}{\draw[gray!34,line width=0.35pt] (2.18,\y)--(3.92,\y);}
+\node[font=\tiny,align=center] at (3.05,1.15) {$N{-}1$\\dark states};
+\draw[phcoupl] (2.35,1.62)--(2.35,1.90); \draw[phhead] (2.35,1.90)--(2.35,2.00);
+\draw[phcoupl] (2.58,2.00)--(2.58,1.72); \draw[phhead] (2.58,1.72)--(2.58,1.62);
+\draw[phcoupl] (2.35,0.30)--(2.35,0.56); \draw[phhead] (2.35,0.56)--(2.35,0.66);
+\draw[phcoupl] (2.58,0.66)--(2.58,0.40); \draw[phhead] (2.58,0.40)--(2.58,0.30);
+\node[font=\scriptsize,text=orange!82!black,align=right,anchor=east] at (1.78,1.15) {phonon\\coupling};
+\draw[effcoupl] (4.35,0.22)--(4.35,1.93); \draw[effhead] (4.35,1.93)--(4.35,2.08);
+\draw[effcoupl] (4.60,2.08)--(4.60,0.37); \draw[effhead] (4.60,0.37)--(4.60,0.22);
+\end{tikzpicture}}
+\end{minipage}
+
+\vspace{2.5mm}
+
+\makebox[\columnwidth][l]{\fontfamily{phv}\selectfont\Large (c)}
+
+\begin{minipage}[t]{0.455\columnwidth}
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[
+  baseline=(current bounding box.center),
+  scale=1.0,
+  every node/.style={font=\small},
+  every path/.style={line width=0.9pt},
+  >=Stealth,
+  midarrow/.style={
+    postaction={decorate},
+    decoration={markings, mark=at position 0.5 with {\arrow{Stealth[length=3.3mm]}}}
+  },
+  dressedarrow/.style={
+    double,
+    double distance=1.4pt,
+    line width=0.9pt,
+    postaction={decorate},
+    decoration={markings, mark=at position 0.5 with {\arrow{Stealth[length=3.3mm]}}}
+  },
+  phonon/.style={
+    decorate,
+    decoration={snake, amplitude=5pt, segment length=11.7pt},
+    line cap=round,
+    line join=round
+  }
+]
+\coordinate (i) at (0,0);
+\coordinate (a) at (1.85,0);
+\coordinate (b) at (4.45,0);
+\coordinate (f) at (6.30,0);
+
+\draw[midarrow] (i) -- (a);
+\draw[midarrow] (a) -- (b);
+\draw[midarrow] (b) -- (f);
+
+\draw[phonon]
+  (a) .. controls +(0.5,1.0) and +(-0.5,1.0) .. (b);
+
+\fill (a) circle (1.1pt);
+\fill (b) circle (1.1pt);
+
+\node[below=4pt] at ($(a)!0.5!(b)$) {$G_0$};
+\node[above=7pt] at ($(a)!0.5!(b)+(0,0.90)$) {$D_0$};
+\end{tikzpicture}}
+\end{minipage}\hspace{0.06\columnwidth}%
+\begin{minipage}[t]{0.455\columnwidth}
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[
+  baseline=(current bounding box.center),
+  scale=1.0,
+  every node/.style={font=\small},
+  every path/.style={line width=0.9pt},
+  >=Stealth,
+  midarrow/.style={
+    postaction={decorate},
+    decoration={markings, mark=at position 0.5 with {\arrow{Stealth[length=3.3mm]}}}
+  },
+  dressedarrow/.style={
+    double,
+    double distance=1.4pt,
+    line width=0.9pt,
+    postaction={decorate},
+    decoration={markings, mark=at position 0.5 with {\arrow{Stealth[length=3.3mm]}}}
+  },
+  phonon/.style={
+    decorate,
+    decoration={snake, amplitude=5pt, segment length=11.7pt},
+    line cap=round,
+    line join=round
+  }
+]
+\coordinate (i) at (0,0);
+\coordinate (a) at (1.85,0);
+\coordinate (b) at (4.45,0);
+\coordinate (f) at (6.30,0);
+
+\draw[midarrow] (i) -- (a);
+\draw[dressedarrow] (a) -- (b);
+\draw[midarrow] (b) -- (f);
+
+\draw[phonon]
+  (a) .. controls +(0.5,1.0) and +(-0.5,1.0) .. (b);
+
+\fill (a) circle (1.1pt);
+\fill (b) circle (1.1pt);
+
+\node[below=4pt] at ($(a)!0.5!(b)$) {$G$};
+\node[above=7pt] at ($(a)!0.5!(b)+(0,0.90)$) {$D_0$};
+\end{tikzpicture}}
+\end{minipage}

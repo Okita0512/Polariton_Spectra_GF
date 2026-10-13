@@ -1,0 +1,74 @@
+{
+    "deom": {
+        "syst": {
+            "hamsFile": "inp_hams.mat",
+            "qmdsFile": "inp_qmds.mat",
+            "lbldFile": "inp_lbld.mat",
+            "lbdsFile": "inp_lbds.mat"
+        },
+        "bath": {
+            "npsd": 3,
+            "pade": 2,
+            "temp": 0.0009500446267629345,
+            "jomg": [
+                {
+                    "jdru": [
+                        [
+                            0.0011024792295669346,
+                            0.0009113828297753326
+                        ]
+                    ]
+                },
+                {
+                    "jdru": [
+                        [
+                            0.0011024792295669346,
+                            0.0009113828297753326
+                        ]
+                    ]
+                },
+                {
+                    "jdru": [
+                        [
+                            0.0011024792295669346,
+                            0.0009113828297753326
+                        ]
+                    ]
+                },
+                {
+                    "jdru": [
+                        [
+                            0.0011024792295669346,
+                            0.0009113828297753326
+                        ]
+                    ]
+                }
+            ],
+            "modeFile": "inp_mode.mat",
+            "etalFile": "inp_etal.mat",
+            "etarFile": "inp_etar.mat",
+            "etaaFile": "inp_etaa.mat",
+            "expnFile": "inp_expn.mat",
+            "delrFile": "inp_delr.mat",
+            "nmod": 4
+        },
+        "hidx": {
+            "trun": 0,
+            "lmax": 20,
+            "nmax": 1000000,
+            "ferr": 2e-05,
+            "expnFile": "inp_expn.mat"
+        }
+    },
+    "spec": {
+        "w1max": 0.22049584591338695,
+        "nt1": 4000,
+        "dt": 0.41341,
+        "nk": 1,
+        "staticErr": 2e-05,
+        "rho0File": "inp_rho0.mat",
+        "sdipFile": "inp_sdip.mat",
+        "pdipFile": "inp_pdip.mat",
+        "bdipFile": "inp_bdip.mat"
+    }
+}

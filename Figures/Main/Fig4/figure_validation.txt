@@ -1,0 +1,43 @@
+Main Fig. 4 resolved-vibronic validation
+========================================
+status = PASS
+output = Figures/Main/Fig4/Fig4.pdf
+format = vector PDF; Matplotlib line/text artists only; path simplification disabled
+layout = two equal tuning panels; outside-cavity row repeated above N=1,2,4,8
+font = regular-weight Helvetica throughout, including panel labels and legend
+legend = Exact (black solid); SCBA (red dashed)
+unique case count = 9
+displayed row count = 10 (five per panel; outside reference repeated)
+scientific curve count = 20 displayed traces (10 exact/SCBA pairs)
+panel (a) = outside reference then 0-0 tuning S5(f,i,l,o), N=1,2,4,8
+panel (b) = outside reference then vertical tuning S6(f,i,l,o), N=1,2,4,8
+outside exact method = analytic Franck-Condon progression
+cavity exact methods = dense ED (N=1,2); projected Lanczos ED (N=4,8)
+energy interval = 1.8--2.3 eV; full cached samples in that interval are plotted
+S = 2; nu_0 = 0.020 eV; lambda = 0.040 eV
+omega_00 = 2.000 eV; omega_0 = 2.040 eV; T = 0
+eta = 0.0005 eV common retarded Lorentzian half-width (not kappa or vibrational damping)
+g_c = 0 outside; fixed single-molecule g_c = 0.03536 eV in cavity cases
+omega_c = omega_00 in (a); omega_c = omega_0 in (b)
+normalization = E/max(E); C*[integral(E)/integral(C)]/max(E), separately per pair over 1.8--2.3 eV
+SCBA is not independently peak-normalized; each pair receives one common vertical offset
+largest exact/SCBA display height = 1.784500703407777e+00
+largest cavity exact/SCBA display height = 1.341990076991340e+00
+row clearance target = 0.080000
+common row step derived from cavity pairs in both protocols = 1.430000
+outside offset = 5.720000
+offsets (N=1,2,4,8) = 4.290000, 2.860000, 1.430000, 0.000000
+S5(c) versus S6(c) spectral arrays = exactly identical
+calculation validations for both shared grids = PASS
+cached arrays modified by plot = no
+
+case,anchor,source,sha256,N,exact_method,exact_peak,exact_display_factor,scba_area_factor,scba_display_factor,matched_area_ratio,display_max,offset
+outside,S5(c) [identical spectral arrays to S6(c)],Figures/shared/discrete_mode/zero_zero/results/outside_S2.0.npz,36422ee10b78b158068c6d62058bd4c170e5f520da42a8babaa6f0b4e2af2dbf,outside,analytic_franck_condon,5.419813131467356e+02,1.845082064165671e-03,9.999997507992689e-01,1.845081604369872e-03,1.000000000000000e+00,1.784500703407777e+00,5.720000
+zero_zero_N1,S5(f),Figures/shared/discrete_mode/zero_zero/results/N1_S2.0.npz,29241a112638360e6b71e152724b4899e9993b35f571ffd976d92944ac465a30,1,dense_eigh,6.593033750213059e+02,1.516752435807999e-03,9.999997193380111e-01,1.516752010113243e-03,9.999999999999998e-01,1.220635281698015e+00,4.290000
+zero_zero_N2,S5(i),Figures/shared/discrete_mode/zero_zero/results/N2_S2.0.npz,1ca39d2dd8f17598270afda15fe3a2543f3e0af38338b34c58743527fa444f79,2,dense_eigh,6.062027039191752e+02,1.649613229262880e-03,9.999997078266969e-01,1.649612747289934e-03,1.000000000000000e+00,1.063923888024938e+00,2.860000
+zero_zero_N4,S5(l),Figures/shared/discrete_mode/zero_zero/results/N4_S2.0.npz,ce4635d08a44ad53fefcc862edb2b29c4c527735b73d7217c7565622f1f4e922,4,projected_lanczos_cf,7.066621218269601e+02,1.415103440686282e-03,9.999996793457356e-01,1.415102986927329e-03,9.999999999999998e-01,1.021798744868585e+00,1.430000
+zero_zero_N8,S5(o),Figures/shared/discrete_mode/zero_zero/results/N8_S2.0.npz,3f4a36c867bc2f028ef4b0dc2be144dd465178311e7afe1f83af626a31c1b894,8,projected_lanczos_cf,7.848480360221643e+02,1.274132002761054e-03,9.999996086527972e-01,1.274131504133059e-03,1.000000000000000e+00,1.025668514137733e+00,0.000000
+vertical_N1,S6(f),Figures/shared/discrete_mode/vertical/results/N1_S2.0.npz,eee596cc52ad3e4fb87bf4b16f927a887da63618246cc68d1bc6ae9604d6e7dd,1,dense_eigh,6.202837551358914e+02,1.612165386760646e-03,9.999997176772334e-01,1.612164931609653e-03,1.000000000000000e+00,1.323898736486996e+00,4.290000
+vertical_N2,S6(i),Figures/shared/discrete_mode/vertical/results/N2_S2.0.npz,2fffbd00f1765fdfe735ae16b2301edd14c58553383661aa52849bd4929ea357,2,dense_eigh,6.524763562915646e+02,1.532622585259076e-03,9.999997081581824e-01,1.532622137975715e-03,1.000000000000000e+00,1.341990076991340e+00,2.860000
+vertical_N4,S6(l),Figures/shared/discrete_mode/vertical/results/N4_S2.0.npz,25ea12e9b729626e6fa7e15b0bae676f32205d4bd1cf2e42f022960c28c5cbe8,4,projected_lanczos_cf,8.513603566194935e+02,1.174590750232618e-03,9.999996812326051e-01,1.174590375811384e-03,1.000000000000000e+00,1.084387439870854e+00,1.430000
+vertical_N8,S6(o),Figures/shared/discrete_mode/vertical/results/N8_S2.0.npz,f50b019e6c16079f15c175699692a4f768f18ff9fd0d2af21f55c51387864bef,8,projected_lanczos_cf,9.372758820337518e+02,1.066921724082077e-03,9.999996143989619e-01,1.066921312675953e-03,9.999999999999999e-01,1.019326946207196e+00,0.000000

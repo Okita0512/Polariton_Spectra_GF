@@ -1,0 +1,30 @@
+{
+    "syst": {
+        "hamscFile": "inp_hamsc.mat",
+        "qmdscFile": "inp_qmdsc.mat",
+        "hamsmFile": "inp_hamsm.mat",
+        "qmdsmFile": "inp_qmdsm.mat",
+        "intcFile": "inp_intc.mat",
+        "intmFile": "inp_intm.mat",
+        "lbldFile": "inp_lbld.mat",
+        "lbdsFile": "inp_lbds.mat"
+    },
+    "bath": {
+        "modecFile": "inp_modec.mat",
+        "etalcFile": "inp_etalc.mat",
+        "etarcFile": "inp_etarc.mat",
+        "etaacFile": "inp_etaac.mat",
+        "expncFile": "inp_expnc.mat",
+        "delrcFile": "inp_delrc.mat",
+        "modemFile": "inp_modem.mat",
+        "etalmFile": "inp_etalm.mat",
+        "etarmFile": "inp_etarm.mat",
+        "etaamFile": "inp_etaam.mat",
+        "expnmFile": "inp_expnm.mat",
+        "delrmFile": "inp_delrm.mat"
+    },
+    "hidx": {
+        "expncFile": "inp_expnc.mat",
+        "expnmFile": "inp_expnm.mat"
+    }
+}

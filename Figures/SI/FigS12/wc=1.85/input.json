@@ -1,0 +1,63 @@
+{
+    "deom": {
+        "syst": {
+            "hamsmFile": "inp_hamsm.mat",
+            "qmdsmFile": "inp_qmdsm.mat",
+            "intmFile": "inp_intm.mat",
+            "g": 0.003674930765223116,
+            "wc": 0.06798621915662764,
+            "N": 10000,
+            "kappa": 0.0007349861530446232,
+            "alpha0Re": 0.0,
+            "alpha0Im": 0.0
+        },
+        "bath": {
+            "modemFile": "inp_modem.mat",
+            "etalmFile": "inp_etalm.mat",
+            "etarmFile": "inp_etarm.mat",
+            "etaamFile": "inp_etaam.mat",
+            "expnmFile": "inp_expnm.mat",
+            "delrmFile": "inp_delrm.mat",
+            "tempm": 0.0009500446267629345,
+            "nmodm": 1,
+            "padem": 2,
+            "npsdm": 4,
+            "jomgm": [
+                {
+                    "jdru": [
+                        [
+                            0.0011024792295669346,
+                            0.0009113828297753327
+                        ]
+                    ]
+                }
+            ]
+        },
+        "hidx": {
+            "expnmFile": "inp_expnm.mat",
+            "trun": 0,
+            "lmaxm": 20,
+            "nmaxm": 1000000,
+            "ferrm": 1e-07
+        }
+    },
+    "rhot": {
+        "dt": 0.41341,
+        "nt": 400000,
+        "nk": 1,
+        "xpflag": 1,
+        "staticErr": 0,
+        "rhomFile": "inp_rho0m.mat",
+        "pulse": {
+            "type": "chirped",
+            "ampl": 0.001,
+            "freq": 0.07349861530446232,
+            "sigm": 41.341,
+            "varp": 0.0,
+            "t0": 206.705
+        },
+        "sdipFile": "inp_sdip.mat",
+        "pdipFile": "inp_pdip.mat",
+        "bdipFile": "inp_bdip.mat"
+    }
+}

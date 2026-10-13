@@ -1,0 +1,2 @@
+label,method,seed,N,temperature_K,gap_meV,omega_c_eV,exciton_fraction,up_peak_eV,fwhm_meV,left_halfwidth_meV,right_halfwidth_meV,resolved_peaks,up_window_peaks,prominence,reliable,minus2ImSigma_meV,ReSigma_meV,minus2ImSigmaB_meV,minus2ImSigmaD_meV,excess_meV,iterations,residual_meV,mixing,max_spectrum_difference,max_sigma_difference_meV
+strict_g0,full,BA,1,300.0,nan,2.03,1.0,1.9954613653413351,88.14637060682595,20.53121998383589,67.61515062299006,1,1,0.998564136470726,1,53.201805075374,-25.63443068672171,53.20180869220198,-0.0,0.0,10,4.094030688270961e-05,1.0,0.0,0.0

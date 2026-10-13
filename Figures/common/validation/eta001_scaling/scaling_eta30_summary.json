@@ -1,0 +1,126 @@
+{
+  "N128": [
+    {
+      "bath": "slow",
+      "coarse_residual_meV": 0.00022707753441279815,
+      "eta0_linear_intercept_LP_fwhm_meV": 2.711178310889006,
+      "eta0p0005_LP_fwhm_meV": 2.7118501800713624,
+      "eta0p001_coarse_LP_fwhm_meV": 2.7125203071629578,
+      "eta0p001_refined_LP_fwhm_meV": 2.7125203071622916,
+      "eta_tightening_percent_change": -0.02470496125539512,
+      "eta_trend_R_squared": 0.9999999692636939,
+      "eta_trend_slope_meV_per_meV": 1.342076532697376,
+      "grid_refinement_percent_change": -2.4558133304708463e-11,
+      "refined_LP_reliable": true,
+      "refined_UP_reliable": true,
+      "refined_all_finite": true,
+      "refined_max_Im_Sigma_au": -2.769452147297165e-12,
+      "refined_min_spectrum_au_inv": 0.00014832229793030298,
+      "refined_residual_meV": 0.0001187151326400131,
+      "residual_tolerance_meV": 0.00027211397,
+      "tighter_residual_meV": 0.00022711962423826884
+    },
+    {
+      "bath": "fast",
+      "coarse_residual_meV": 0.00012955590423140544,
+      "eta0_linear_intercept_LP_fwhm_meV": 0.2650246791464073,
+      "eta0p0005_LP_fwhm_meV": 0.26601814658921974,
+      "eta0p001_coarse_LP_fwhm_meV": 0.2670309225147882,
+      "eta0p001_refined_LP_fwhm_meV": 0.26703092250945915,
+      "eta_tightening_percent_change": -0.3792728987046523,
+      "eta_trend_R_squared": 0.9999995579145776,
+      "eta_trend_slope_meV_per_meV": 1.9985122206967696,
+      "grid_refinement_percent_change": -1.995670295684704e-09,
+      "refined_LP_reliable": true,
+      "refined_UP_reliable": true,
+      "refined_all_finite": true,
+      "refined_max_Im_Sigma_au": -1.6757806174040694e-12,
+      "refined_min_spectrum_au_inv": 0.0007334427564792397,
+      "refined_residual_meV": 1.7700676793867074e-05,
+      "residual_tolerance_meV": 0.00027211397,
+      "tighter_residual_meV": 0.00012956070892898027
+    }
+  ],
+  "fits": [
+    {
+      "R_squared": 0.9998908269804319,
+      "bath": "slow",
+      "fit_N": "1 2 3 4",
+      "intercept_ln_meV": 4.1525071026354246,
+      "k": -0.543195616783698,
+      "scheme": "A_uniform_eta0p010"
+    },
+    {
+      "R_squared": 0.9996580333137991,
+      "bath": "fast",
+      "fit_N": "8 16 32 64 128",
+      "intercept_ln_meV": 3.4207423458731285,
+      "k": -0.968374974806482,
+      "scheme": "A_uniform_eta0p010"
+    },
+    {
+      "R_squared": 0.9998908269804319,
+      "bath": "slow",
+      "fit_N": "1 2 3 4",
+      "intercept_ln_meV": 4.1525071026354246,
+      "k": -0.543195616783698,
+      "scheme": "B_mixed_N128_eta0p001"
+    },
+    {
+      "R_squared": 0.99993752665687,
+      "bath": "fast",
+      "fit_N": "8 16 32 64 128",
+      "intercept_ln_meV": 3.4728723661774827,
+      "k": -0.9871769052501155,
+      "scheme": "B_mixed_N128_eta0p001"
+    },
+    {
+      "R_squared": 0.9998908269804319,
+      "bath": "slow",
+      "fit_N": "1 2 3 4",
+      "intercept_ln_meV": 4.1525071026354246,
+      "k": -0.543195616783698,
+      "scheme": "E_tighter_N128_eta0p0005"
+    },
+    {
+      "R_squared": 0.9999308461365003,
+      "bath": "fast",
+      "fit_N": "8 16 32 64 128",
+      "intercept_ln_meV": 3.4759123178745974,
+      "k": -0.9882733360596078,
+      "scheme": "E_tighter_N128_eta0p0005"
+    },
+    {
+      "R_squared": 0.9998908269804319,
+      "bath": "slow",
+      "fit_N": "1 2 3 4",
+      "intercept_ln_meV": 4.1525071026354246,
+      "k": -0.543195616783698,
+      "scheme": "D_N128_linear_eta0_diagnostic"
+    },
+    {
+      "R_squared": 0.9999218977003961,
+      "bath": "fast",
+      "fit_N": "8 16 32 64 128",
+      "intercept_ln_meV": 3.478905578843127,
+      "k": -0.9893529267484537,
+      "scheme": "D_N128_linear_eta0_diagnostic"
+    },
+    {
+      "R_squared": 0.9998906235606676,
+      "bath": "slow",
+      "fit_N": "1 2 3 4",
+      "intercept_ln_meV": 4.152524867192186,
+      "k": -0.5432232334579004,
+      "scheme": "C_uniform_eta0p005_fit_windows"
+    },
+    {
+      "R_squared": 0.9998024624135065,
+      "bath": "fast",
+      "fit_N": "8 16 32 64 128",
+      "intercept_ln_meV": 3.4467920340267963,
+      "k": -0.9800047779911345,
+      "scheme": "C_uniform_eta0p005_fit_windows"
+    }
+  ]
+}

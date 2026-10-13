@@ -1,0 +1,67 @@
+{
+  "authoritative_mesh": "Figures/common/dimer/single_mode/data/eta0p005/mesh.csv",
+  "authoritative_mesh_sha256": "6cd6eb66156f8db28a858ae14053ffc9867484b7d2d97a7d4a67fa735c297772",
+  "duplicate_case_ids": 0,
+  "fig_s6_contains_all_production_case_ids": true,
+  "fig_s6_exact_calculated_merged_source": true,
+  "fig_s6_processed_rows": 2248,
+  "fig_s7_exact_calculated_overlap_with_s6": true,
+  "fig_s7_expected_overlap_rows": 167,
+  "fig_s7_processed_rows": 167,
+  "generated_utc": "2026-10-12T00:40:25+00:00",
+  "groups": {
+    "S0.02_J+1": {
+      "maximum_step": 0.10000000000000053,
+      "minimum_step": 0.004999999999999893,
+      "rows": 369,
+      "same_shared_r_mesh": true,
+      "strictly_increasing": true,
+      "unique_r": 369
+    },
+    "S0.02_J-1": {
+      "maximum_step": 0.10000000000000053,
+      "minimum_step": 0.004999999999999893,
+      "rows": 369,
+      "same_shared_r_mesh": true,
+      "strictly_increasing": true,
+      "unique_r": 369
+    },
+    "S0.05_J+1": {
+      "maximum_step": 0.10000000000000053,
+      "minimum_step": 0.004999999999999893,
+      "rows": 369,
+      "same_shared_r_mesh": true,
+      "strictly_increasing": true,
+      "unique_r": 369
+    },
+    "S0.05_J-1": {
+      "maximum_step": 0.10000000000000053,
+      "minimum_step": 0.004999999999999893,
+      "rows": 369,
+      "same_shared_r_mesh": true,
+      "strictly_increasing": true,
+      "unique_r": 369
+    },
+    "S0.1_J+1": {
+      "maximum_step": 0.10000000000000053,
+      "minimum_step": 0.004999999999999893,
+      "rows": 369,
+      "same_shared_r_mesh": true,
+      "strictly_increasing": true,
+      "unique_r": 369
+    },
+    "S0.1_J-1": {
+      "maximum_step": 0.10000000000000053,
+      "minimum_step": 0.004999999999999893,
+      "rows": 369,
+      "same_shared_r_mesh": true,
+      "strictly_increasing": true,
+      "unique_r": 369
+    }
+  },
+  "mesh_rows": 2214,
+  "plot_transform": "sorted calculated points connected directly; no resampling, interpolation, smoothing, filtering, or downsampling",
+  "publication_pdf_path_simplification_after_revision27": false,
+  "source_cuts_sha256": "ac34e9054142497b58f9901172d7325089060b28b97ce31ee114b60686a92e88",
+  "unique_case_ids": 2214
+}

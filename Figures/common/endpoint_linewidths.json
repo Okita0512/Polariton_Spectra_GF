@@ -1,0 +1,137 @@
+{
+  "analysis": {
+    "baseline": "minimum of the original spectrum on the stated line support",
+    "crossings": "linear interpolation on the original unsmoothed grid",
+    "definition": "direct full width at half maximum",
+    "fit": null,
+    "normalization": "divide the original spectrum by its maximum",
+    "routine": "Figures/common/spectral_analysis.py:analyze_single_peak"
+  },
+  "canonical": {
+    "eq26_gamma_ex_meV": 76.28,
+    "heom_molecule_fwhm_meV": 76.28,
+    "reporting_policy": {
+      "heom_decimals": 2,
+      "scba_caption_decimals": 2,
+      "scba_precise_decimals": 3
+    },
+    "scba_molecule_fwhm_meV": 88.146
+  },
+  "cross_route": {
+    "absolute_difference_meV": 0.20291464760768463,
+    "canonical_scba_route": "scba_independent_tangent",
+    "production_fft_minus_independent_tangent_meV": 0.20291464760768463,
+    "relative_difference_percent": 0.2302019314133521
+  },
+  "routes": {
+    "heom_uncoupled": {
+      "fwhm_meV": 76.28222937019635,
+      "fwhm_resolution_meV": 1.5000000000000568,
+      "left_halfwidth_meV": 33.90310441653166,
+      "line_support_eV": [
+        1.5,
+        2.5
+      ],
+      "normalized_baseline": -4.018116481022517e-06,
+      "normalized_peak_height": 1.0,
+      "numerical_broadening_meV": null,
+      "peak_eV": 2.016,
+      "prominence": 0.9995887336023919,
+      "raw_grid": {
+        "maximum_eV": 2.9985,
+        "median_step_meV": 1.5000000000000568,
+        "minimum_eV": 0.0,
+        "points": 2000
+      },
+      "reliable": true,
+      "response_settings": {
+        "postprocessing_broadening": "none",
+        "time_points": 4000,
+        "time_step_au": 0.41341,
+        "time_step_fs": 0.01
+      },
+      "right_halfwidth_meV": 42.37912495366469,
+      "source_energy": "Figures/Main/Fig2/fast/N=1_out/resp1st.w1",
+      "source_spectrum": "Figures/Main/Fig2/fast/N=1_out/resp1st_im.w"
+    },
+    "scba_independent_tangent": {
+      "final_mixing": 1.0,
+      "final_residual_eV": 4.094030688270961e-08,
+      "final_residual_hartree": 1.504527933009452e-09,
+      "fwhm_meV": 88.14637060682595,
+      "fwhm_resolution_meV": 0.5626406601648704,
+      "internal_grid": {
+        "bath_method": "tangent",
+        "bath_points": 1000,
+        "maximum_eV": 3.2,
+        "minimum_eV": 0.8,
+        "points": 4000,
+        "step_meV": 0.6001500375093775
+      },
+      "iterations": 10,
+      "left_halfwidth_meV": 20.53121998383589,
+      "line_support_eV": [
+        1.65,
+        2.35
+      ],
+      "max_iterations": 300,
+      "normalized_baseline": 2.146714884381935e-06,
+      "normalized_peak_height": 1.0,
+      "numerical_broadening_meV": 0.01,
+      "peak_eV": 1.9954613653413351,
+      "prominence": 0.998564136470726,
+      "raw_output_grid": {
+        "maximum_eV": 3.15,
+        "median_step_meV": 0.5626406601650924,
+        "minimum_eV": 0.8999999999999999,
+        "points": 4000
+      },
+      "reliable": true,
+      "right_halfwidth_meV": 67.61515062299006,
+      "self_energy_interpolation": "linear",
+      "source_cache": "Figures/SI/FigS11/cache/g0_N1_decoupled_T300_full_BA_b1000_w4000_lo0.8_hi3.2_tol1e-08_eta1e-05_mix1_ad1.npz",
+      "source_table": "Figures/SI/FigS11/data/isolated_molecule.csv",
+      "tolerance_eV": 2.7211397e-07,
+      "tolerance_hartree": 1e-08
+    },
+    "scba_production_fft": {
+      "final_mixing": 1.0,
+      "final_residual_eV": 1.8219695657902652e-08,
+      "final_residual_hartree": 6.695612010622848e-10,
+      "fwhm_meV": 88.34928525443364,
+      "fwhm_resolution_meV": 0.2500625156289793,
+      "internal_grid": {
+        "bath_method": "continuous_linear_fft",
+        "maximum_eV": 4.0,
+        "minimum_eV": -1.0,
+        "points": 100001,
+        "step_meV": 0.05
+      },
+      "iterations": 7,
+      "left_halfwidth_meV": 20.523433230779986,
+      "line_support_eV": [
+        1.5,
+        2.5
+      ],
+      "normalized_baseline": 1.0820412811561556e-05,
+      "normalized_peak_height": 1.0,
+      "numerical_broadening_meV": 0.1,
+      "peak_eV": 1.9953738434608652,
+      "prominence": 0.9995462718465888,
+      "raw_output_grid": {
+        "maximum_eV": 2.5,
+        "median_step_meV": 0.2500625156289793,
+        "minimum_eV": 1.5,
+        "points": 4000
+      },
+      "reliable": true,
+      "right_halfwidth_meV": 67.82585202365365,
+      "self_energy_interpolation": "linear",
+      "source_spectrum": "Figures/Main/Fig2/fast/N=1_out/Aw_sc_fullpol.txt",
+      "tolerance_eV": 2.7211397e-07,
+      "tolerance_hartree": 1e-08
+    }
+  },
+  "schema_version": 1,
+  "units": "meV"
+}

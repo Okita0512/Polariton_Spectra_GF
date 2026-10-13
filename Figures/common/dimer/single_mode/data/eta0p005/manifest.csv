@@ -1,0 +1,19 @@
+kind,case_id,status,path,sha256,size_bytes,role
+archive,eta005_S0p05_Jp_r0p65,complete,Figures/common/dimer/single_mode/data/eta0p005/spectra/eta005_S0p05_Jp_r0p65.npz,b395789ab536f9820f27eea828c4d1942d5794b75ed01f7a231c6f955a1b2aae,835237,S=0.05 cut A
+archive,eta005_S0p05_Jp_r0p885,complete,Figures/common/dimer/single_mode/data/eta0p005/spectra/eta005_S0p05_Jp_r0p885.npz,ae599b7e532179196bf5a09fa597e9909ce2b1e05f106d7b5e0ba92e0543331b,857821,S=0.05 cut B
+archive,eta005_S0p05_Jp_r1,complete,Figures/common/dimer/single_mode/data/eta0p005/spectra/eta005_S0p05_Jp_r1.npz,f9c219dea64214d16210d23666de8c1a8e7b01549875646af63b0ca6e611aa57,825831,S=0.05 cut C
+archive,eta005_S0p05_Jp_r1p45,complete,Figures/common/dimer/single_mode/data/eta0p005/spectra/eta005_S0p05_Jp_r1p45.npz,b4e86fcbb339347428d048ba03d4dd01ccfd51c85d306e6ab16d364c2a5ed111,843080,S=0.05 cut D
+archive,eta005_S0p1_Jp_r0p65,complete,Figures/common/dimer/single_mode/data/eta0p005/spectra/eta005_S0p1_Jp_r0p65.npz,47b0225296af506f6cd67e4fd91cb3a1e20d625de2cd3a75d5207451123d967b,835474,S=0.1 cut A
+archive,eta005_S0p1_Jp_r0p8,complete,Figures/common/dimer/single_mode/data/eta0p005/spectra/eta005_S0p1_Jp_r0p8.npz,f7c3c46aca9eb47e222adfcc6023872d23b3ef92290bae0ba8bd5765edbb2fb8,823107,S=0.1 cut B
+archive,eta005_S0p1_Jp_r1,complete,Figures/common/dimer/single_mode/data/eta0p005/spectra/eta005_S0p1_Jp_r1.npz,04f08c81dfcded2cae9af10b9725db8ef1eaa590d98bc43f199e2f74b5f8253e,825638,S=0.1 cut C
+archive,eta005_S0p1_Jp_r1p35,complete,Figures/common/dimer/single_mode/data/eta0p005/spectra/eta005_S0p1_Jp_r1p35.npz,7af2c082f70bce68b0646d3c29264792edd1ea60b708e8b70c16d8de49238aee,842975,S=0.1 cut D
+data,,complete,Figures/common/dimer/single_mode/data/eta0p005/baselines.csv,81406965ad1c9911f0ef27b94786f190548f9fa5aaa05476d1317bc376e2c999,1670,seven freshly calculated scale-invariant J=0 baselines
+data,,complete,Figures/common/dimer/single_mode/data/eta0p005/cuts.csv,ac34e9054142497b58f9901172d7325089060b28b97ce31ee114b60686a92e88,4765,eight A-D cut selections and archive checks
+data,,complete,Figures/common/dimer/single_mode/data/eta0p005/extrema.csv,cd6a88a01cd684ddb1e0bc39247b2c575a3849b40a45adeb35dbe9c1477da026,7396,extrema measured directly from the eta/nu0=0.005 mesh
+data,,complete,Figures/common/dimer/single_mode/data/eta0p005/mesh.csv,6cd6eb66156f8db28a858ae14053ffc9867484b7d2d97a7d4a67fa735c297772,807562,"2,214 freshly calculated finite-J mesh points"
+data,,complete,Figures/common/dimer/single_mode/data/eta0p005/targeted_convergence.csv,905ec7387f54db284e5e43df74723c14d9d001f30b69cf88f2c342b3b8fa1118,2805,three-case ED-cutoff and grid-halving convergence data
+data,,complete,Figures/common/dimer/single_mode/data/eta0p005/targeted_convergence.json,5eef786e0a0bff0b8ac2c99f19df7b9075a3ebad572e63274acd41ac76b7e24c,1982,machine-readable targeted convergence summary
+data,,complete,Figures/common/dimer/single_mode/data/eta0p005/targeted_convergence.txt,72691b4eea75e2b78244e037386e28f0c104d45209882a5eb2477c1a615a379d,1337,human-readable targeted convergence PASS report
+data,,complete,Figures/common/dimer/single_mode/data/eta0p005/validation.json,7716653106596195c76f585799c335665417bc183be00ab4c3843197a1cbbebf,7509,machine-readable numerical validation
+data,,complete,Figures/common/dimer/single_mode/data/eta0p005/validation.txt,3239b763fb539274f6522fa8c389b6b468a52b33719ba8f9d71f3871a752fd3b,3183,human-readable PASS report
+source,,complete,Figures/common/dimer/single_mode/generate_eta0p005.py,a44114c8c231b652e28493bec361ab57de4061f60bdf9684fa3a430d6c0998be,32417,reproducible eta/nu0=0.005 generator

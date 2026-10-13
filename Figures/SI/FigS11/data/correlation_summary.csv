@@ -1,0 +1,7 @@
+statistic,notation,N,points,gap_min_meV,gap_max_meV,dark_baseline_meV,pearson_r_P
+Pearson product-moment correlation,r_P,2,12,0.02,100.0,26.600904346100982,0.9007529301839766
+Pearson product-moment correlation,r_P,4,12,0.02,100.0,39.901356519151484,0.9139592230308528
+Pearson product-moment correlation,r_P,8,12,0.02,100.0,46.55158260567673,0.9097137065347602
+Pearson product-moment correlation,r_P,16,12,0.02,100.0,49.87669564893935,0.9084938851477549
+Pearson product-moment correlation,r_P,32,12,0.02,100.0,51.53925217057066,0.906550825014237
+Pearson product-moment correlation,r_P,64,12,0.02,100.0,52.370530431386314,0.9068025784946658

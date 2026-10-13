@@ -1,0 +1,2 @@
+isolated_molecule_fwhm_meV,max_g0_width_difference_meV,max_g0_sigma_difference_meV,smallest_gap_meV,max_asymptotic_excess_meV,min_pearson_r_P,max_pearson_r_P,max_fixed_point_width_difference_meV,max_robustness_width_variation_meV,all_gap_points_reliable,all_gap_up_windows_single_peaked,method_rows,temperature_rows
+88.14637060682595,0.0,1.216425658677809e-14,0.02,0.04194334559093704,0.9007529301839766,0.9139592230308528,0.0001400329117018373,0.024362497683895867,1,1,36,48

@@ -1,0 +1,41 @@
+Main Fig. 2 plot-only validation
+status = PASS
+panels = fast-bath spectra; slow-bath spectra; fixed-collective-splitting LP scaling
+slow fit (N=1--4) = -0.543195617
+fast fit (N=8--128) = -0.987176905
+max area-ratio error, spectral pairs = 9.774e-04
+sources:
+Figures/Main/Fig2/fast/N=1_out/resp1st.w1 sha256=061aa1a8e1a2e190fb7247f44a723d49eb097b164746a16ca1145e1f8fd1a131
+Figures/Main/Fig2/fast/N=1_out/resp1st_im.w sha256=31fecedae1a20f5cc01c790bea8abea4164cd2a60dea46d791d909c7eb8ac885
+Figures/Main/Fig2/fast/N=1_out/Aw_sc_fullpol.txt sha256=10c80d97b98740d6c5410b45b0f614ac7d19cda5afe0dba6b3c9f3512847f778
+Figures/Main/Fig2/fast/N=1/resp1st.w1 sha256=061aa1a8e1a2e190fb7247f44a723d49eb097b164746a16ca1145e1f8fd1a131
+Figures/Main/Fig2/fast/N=1/resp1st_im.w sha256=f3bc968f0c02ccaa2742d6a716ad04b82dc454503fe961f3542f985ad16f95e2
+Figures/Main/Fig2/fast/N=1/Aw_sc_fullpol.txt sha256=5499e8a4e745a8f429c75ef91566cf642f517e0dbb7cc4b5ac2c34ca4b9907d4
+Figures/Main/Fig2/fast/N=2/resp1st.w1 sha256=061aa1a8e1a2e190fb7247f44a723d49eb097b164746a16ca1145e1f8fd1a131
+Figures/Main/Fig2/fast/N=2/resp1st_im.w sha256=a4231fdba1bbbf5dcdb78c0b59797fd5d78d3bc3cb5f79e0da4e5650316c5df3
+Figures/Main/Fig2/fast/N=2/Aw_sc_fullpol.txt sha256=45921628c0ab2f28717bebe5a324b259efb321e75cb0a861e6780d121173dc92
+Figures/Main/Fig2/fast/N=4/resp1st.w1 sha256=061aa1a8e1a2e190fb7247f44a723d49eb097b164746a16ca1145e1f8fd1a131
+Figures/Main/Fig2/fast/N=4/resp1st_im.w sha256=0b91129c64bd7a6eca2e440a9590fb03ae9d1a3bd63d873f3cc09deeda5916ce
+Figures/Main/Fig2/fast/N=4/Aw_sc_fullpol.txt sha256=6929a1778f854ec806cb13ca442940912b68b26fbc51dc195d34f032aef814e4
+Figures/Main/Fig2/fast/N=8/resp1st.w1 sha256=061aa1a8e1a2e190fb7247f44a723d49eb097b164746a16ca1145e1f8fd1a131
+Figures/Main/Fig2/fast/N=8/resp1st_im.w sha256=b5862a8d7294cab93a4b6223b7cb8060e8b79e7298acf3f0d43248f507e23b37
+Figures/Main/Fig2/fast/N=8/Aw_sc_fullpol.txt sha256=9d03cfc675c4ac5e50db41821e7df81cf695429c91383f0a1b94bcfba168f3a4
+Figures/Main/Fig2/slow/outside/resp1st.w1 sha256=061aa1a8e1a2e190fb7247f44a723d49eb097b164746a16ca1145e1f8fd1a131
+Figures/Main/Fig2/slow/outside/resp1st_im.w sha256=5434433599f2832d496844fb641c7d4245e109395aadd6e5483ec3308508051a
+Figures/Main/Fig2/slow/outside/Aw_sc_fullpol.txt sha256=6be42a51c27306cc142751d65dcaed348be8ea0be7a5b6a0192e29c1f9f319d3
+Figures/Main/Fig2/slow/N=1/resp1st.w1 sha256=5020ddc8913a4445fde15ad4ad20f7432d0f14bad433e61cbf473cdabaa44d5d
+Figures/Main/Fig2/slow/N=1/resp1st_im.w sha256=ff097cf199068b149d61542b62ce9280fd9eaec2907cde673b2f80deb8fdcd0a
+Figures/Main/Fig2/slow/N=1/Aw_sc_fullpol.txt sha256=ccf3e7538a46e9f7afa5de1aa36898fa312c2207a2d157d82da7acff1c4a6228
+Figures/Main/Fig2/slow/N=2/resp1st.w1 sha256=5020ddc8913a4445fde15ad4ad20f7432d0f14bad433e61cbf473cdabaa44d5d
+Figures/Main/Fig2/slow/N=2/resp1st_im.w sha256=146db9a3e336a4f2cfafa45f73bf3ae5ca5215f92651ae298f0c04d5090351e0
+Figures/Main/Fig2/slow/N=2/Aw_sc_fullpol.txt sha256=b94522f9a823ab981dc230795dd8189a25d5e84bca02dc65b7949add46089e5f
+Figures/Main/Fig2/slow/N=4/resp1st.w1 sha256=5020ddc8913a4445fde15ad4ad20f7432d0f14bad433e61cbf473cdabaa44d5d
+Figures/Main/Fig2/slow/N=4/resp1st_im.w sha256=2f78ea0d3f78c30053f46ef4ad39433ebb3f368c488d1ea0f07bd121d1847949
+Figures/Main/Fig2/slow/N=4/Aw_sc_fullpol.txt sha256=3aec8eb7e0400ca6f65fe070cdb966536250928e0024ba8738cbb87c60f0cf6d
+Figures/Main/Fig2/slow/N=8/resp1st.w1 sha256=5020ddc8913a4445fde15ad4ad20f7432d0f14bad433e61cbf473cdabaa44d5d
+Figures/Main/Fig2/slow/N=8/resp1st_im.w sha256=81c9bbc9883a68f0ec33d0254eea6dcf13552d6c8be9254d4c691117bd1e41c5
+Figures/Main/Fig2/slow/N=8/Aw_sc_fullpol.txt sha256=5697c5aec42a036c67723aadbe5829bbc13913bda4eb67f8b0f487ef94056220
+Figures/Main/Fig2/N-scaling_slow/width-HEOM.txt sha256=f4d0f2c8b8fb1b0f5aa6d875c849cced15eca3fbf8d842ebf69a2d93fdc7106e
+Figures/Main/Fig2/N-scaling_slow/width-SCBA.txt sha256=cf36685159c62357f244d06862426a3f7867340eb4f80496c34c71f988d85a30
+Figures/Main/Fig2/N-scaling_fast/width-HEOM.txt sha256=a4428a79e85a971888f24d5989997b58468090cde49925140f1a42a914353ac7
+Figures/Main/Fig2/N-scaling_fast/width-SCBA.txt sha256=bf4c007f42dd668ce5ae941ae48892805bb0abf9240ea5d1e8ac9b7c6db29ae5

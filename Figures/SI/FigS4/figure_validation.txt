@@ -1,0 +1,28 @@
+FigS4 fixed-g_c figure validation
+====================================
+status = PASS
+layout = 5 rows x 3 columns
+figure size = 6.95 x 7.25 inches
+axes-grid horizontal extent = 0.088 .. 0.978 (89.0% of artboard)
+row labels = upper-right in reserved band above first-column axes
+shared labels/legend centered on axes grid
+bottom major ticks = 1.8, 2.0, 2.2 eV (display range unchanged)
+column order = S=0.5, 1.0, 2.0
+row order = outside cavity, inside N=1, 2, 4, 8
+panel labels = (a) through (o), row major
+curves per panel = Exact and SCBA
+phonon frequency = 0.020 eV
+broadening = 0.0005 eV; temperature = 0
+cavity resonance = omega_c = omega_00 = 2.0 eV
+single-molecule coupling = g_c = 0.03536 eV
+collective coupling = sqrt(N) g_c (increases with N)
+normalization = exact peak; SCBA area matched over 1.8--2.3 eV
+ED cutoff = Q=28; checked at Q=30
+Lanczos production/check = 5000/4000 steps
+SCBA grid spacing = 0.05 meV
+curves = unsimplified vector paths
+style = Figures/common/si_plot_style.py
+plotted cases = 15
+maximum displayed ordinate = 1.784500703408e+00
+shared y limit = -0.05 .. 1.95
+calculation validation = PASS

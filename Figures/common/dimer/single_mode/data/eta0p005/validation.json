@@ -1,0 +1,325 @@
+{
+  "checks": [
+    {
+      "name": "mesh_rows",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 0.0,
+      "value": 0.0
+    },
+    {
+      "name": "unique_mesh_case_ids",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 0.0,
+      "value": 0.0
+    },
+    {
+      "name": "baseline_rows",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 0.0,
+      "value": 0.0
+    },
+    {
+      "name": "extrema_rows",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 0.0,
+      "value": 0.0
+    },
+    {
+      "name": "cut_rows",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 0.0,
+      "value": 0.0
+    },
+    {
+      "name": "fixed_eta_over_nu0",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 2e-15,
+      "value": 8.673617379884035e-19
+    },
+    {
+      "name": "archive_dimensionless_grid_step",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 2e-12,
+      "value": 1.9997024869322644e-15
+    },
+    {
+      "name": "archive_grid_metadata",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 2e-12,
+      "value": 0.0
+    },
+    {
+      "name": "archive_analysis_samples",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 0.0,
+      "value": 0.0
+    },
+    {
+      "name": "mesh_raw_area",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 3e-06,
+      "value": 5.824927691316467e-07
+    },
+    {
+      "name": "mesh_fixed_point",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 2e-12,
+      "value": 2.0927704014184202e-15
+    },
+    {
+      "name": "mesh_causality",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 2e-12,
+      "value": 0.0
+    },
+    {
+      "name": "mesh_channel_closure",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 2e-12,
+      "value": 3.7816971776294396e-17
+    },
+    {
+      "name": "mesh_ED_positivity",
+      "pass": true,
+      "relation": ">=",
+      "threshold": -1e-12,
+      "value": 2.441542834091969e-05
+    },
+    {
+      "name": "mesh_SCBA_positivity",
+      "pass": true,
+      "relation": ">=",
+      "threshold": -1e-12,
+      "value": 2.44154283021373e-05
+    },
+    {
+      "name": "baseline_raw_area",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 3e-06,
+      "value": 5.547748474708316e-07
+    },
+    {
+      "name": "baseline_fixed_point",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 2e-12,
+      "value": 0.0
+    },
+    {
+      "name": "baseline_causality",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 2e-12,
+      "value": 0.0
+    },
+    {
+      "name": "baseline_channel_closure",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 2e-12,
+      "value": 0.0
+    },
+    {
+      "name": "baseline_ED_positivity",
+      "pass": true,
+      "relation": ">=",
+      "threshold": -1e-12,
+      "value": 9.766174069755449e-05
+    },
+    {
+      "name": "baseline_SCBA_positivity",
+      "pass": true,
+      "relation": ">=",
+      "threshold": -1e-12,
+      "value": 9.766174055291642e-05
+    },
+    {
+      "name": "archive_W1_reproduction",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 3e-09,
+      "value": 2.0809959588863336e-09
+    },
+    {
+      "name": "archive_area_reproduction",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 5e-08,
+      "value": 4.980439727297892e-09
+    },
+    {
+      "name": "archive_SCBA_area_reproduction",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 5e-08,
+      "value": 9.097974484895133e-09
+    },
+    {
+      "name": "archive_ED_positivity",
+      "pass": true,
+      "relation": ">=",
+      "threshold": -1e-10,
+      "value": 0.00020070582104381174
+    },
+    {
+      "name": "archive_SCBA_positivity",
+      "pass": true,
+      "relation": ">=",
+      "threshold": -1e-10,
+      "value": 0.00020070579193998128
+    },
+    {
+      "name": "mesh_count_S0p02_Jm",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 0.0,
+      "value": 0.0
+    },
+    {
+      "name": "mesh_count_S0p02_Jp",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 0.0,
+      "value": 0.0
+    },
+    {
+      "name": "mesh_count_S0p05_Jm",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 0.0,
+      "value": 0.0
+    },
+    {
+      "name": "mesh_count_S0p05_Jp",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 0.0,
+      "value": 0.0
+    },
+    {
+      "name": "mesh_count_S0p1_Jm",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 0.0,
+      "value": 0.0
+    },
+    {
+      "name": "mesh_count_S0p1_Jp",
+      "pass": true,
+      "relation": "<=",
+      "threshold": 0.0,
+      "value": 0.0
+    }
+  ],
+  "completion_protocol": {
+    "expected_J0_baselines": 7,
+    "expected_finite_J_cases": 2214,
+    "failed_or_nonconverged_points_dropped": false,
+    "failure_behavior": "worker exception aborts generation"
+  },
+  "counts": {
+    "baselines": 7,
+    "cuts": 8,
+    "extrema": 30,
+    "mesh": 2214
+  },
+  "ed_profile": {
+    "baseline_n_vib_by_S": {
+      "0.02": 10,
+      "0.05": 10,
+      "0.10": 10,
+      "0.25": 12,
+      "0.50": 16,
+      "1.0": 20,
+      "2.0": 24
+    },
+    "basis": "factorized common/difference oscillator Fock bases; common mode analytic and difference mode diagonalized",
+    "finite_J_difference_matrix_dimension": 20,
+    "finite_J_n_vib": 10,
+    "finite_J_parity_block_dimension": 10
+  },
+  "generated_utc": "2026-08-18T16:58:39+00:00",
+  "pass": true,
+  "physical_profile": {
+    "J_abs_meV": 25.0,
+    "analysis_grid_samples": 18001,
+    "analysis_x": [
+      -18.0,
+      18.0
+    ],
+    "baseline_S": [
+      0.02,
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "dimensionless_step": 0.002,
+    "eta_over_nu0": 0.005,
+    "finite_J_S": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "internal_grid_samples": 28001,
+    "internal_x": [
+      -32.0,
+      24.0
+    ],
+    "temperature_K": 0.0
+  },
+  "scba_profile": {
+    "absolute_residual_tolerance_eV": 1e-09,
+    "causality_tolerance_eV": 5e-10,
+    "green_change_tolerance": 1e-08,
+    "maximum_iterations_for_iterative_fallback": 5000,
+    "mixing": {
+      "consecutive_converged": 3,
+      "grow_if_residual_ratio_below": 0.7,
+      "growth_factor": 1.05,
+      "halve_if_residual_growth_factor_exceeds": 1.1,
+      "initial": 0.08,
+      "maximum": 0.4,
+      "minimum": 0.002,
+      "used_by_production_T0_sweep": false
+    },
+    "production_iterations": 1,
+    "production_solver": "zero_temperature_ascending_sweep",
+    "profile_validation_tolerance_over_nu0": 2e-12,
+    "raw_area_relative_tolerance": 3e-06,
+    "relative_residual_tolerance": 1e-08
+  },
+  "schema_version": "figs6_s7_eta_over_nu0_0p005_v1",
+  "targeted_convergence": {
+    "command": "python3 Figures/common/dimer/single_mode/validate_targeted_convergence.py",
+    "csv": "Figures/common/dimer/single_mode/data/eta0p005/targeted_convergence.csv",
+    "json": "Figures/common/dimer/single_mode/data/eta0p005/targeted_convergence.json",
+    "text": "Figures/common/dimer/single_mode/data/eta0p005/targeted_convergence.txt"
+  },
+  "wasserstein_protocol": {
+    "common_support_x": [
+      -18.0,
+      18.0
+    ],
+    "integration": "weighted one-dimensional Wasserstein distance with trapezoidal point weights, equivalent to CDF integration",
+    "normalization": "independent trapezoidal unit-area normalization",
+    "peak_normalization": false,
+    "smoothing": false
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "description": "Canonical eta=0.5-meV discrete-mode spectra shared by main Fig. 4 and SI Figs. S4/S5 (publication folders FigS4/FigS5)",
+  "active_generation": {
+    "generated_on": "2026-10-05",
+    "eta_eV": 0.0005,
+    "scba_grid_step_eV": 0.00005,
+    "ed_total_phonon_cutoff": 28,
+    "ed_check_total_phonon_cutoff": 30,
+    "lanczos_production_steps": 5000,
+    "lanczos_check_steps": 4000,
+    "aggregate_digest_method": "SHA256 of per-file SHA256 records concatenated in relative-filename order",
+    "zero_zero": {
+      "file_count": 15,
+      "byte_count": 14603618,
+      "aggregate_sha256": "dc8e0f2dabef6d6cf42b3311be44b41a0d4465c079ec4e12178829a3da5399f7"
+    },
+    "vertical": {
+      "file_count": 15,
+      "byte_count": 14603563,
+      "aggregate_sha256": "364cfab4bfac51fce9ee7079a486a0f60cc059b32b204dd911c41ad271215f25"
+    }
+  },
+  "migration": [
+    {
+      "old_path": "FigS5/results",
+      "new_path": "Figures/shared/discrete_mode/zero_zero/results",
+      "file_count": 15,
+      "byte_count": 14471014,
+      "content_digest_before": "fae9ac4b792a34693e89f5dcf750ce3d9a2adc388b63ae35731dc56129a68b07",
+      "content_digest_after": "fae9ac4b792a34693e89f5dcf750ce3d9a2adc388b63ae35731dc56129a68b07",
+      "supporting_files": {
+        "summary": {
+          "old_path": "FigS5/summary.csv",
+          "new_path": "Figures/shared/discrete_mode/zero_zero/summary.csv"
+        },
+        "calculation_validation": {
+          "old_path": "FigS5/validation.txt",
+          "new_path": "Figures/shared/discrete_mode/zero_zero/calculation_validation.txt"
+        }
+      }
+    },
+    {
+      "old_path": "FigS6/results",
+      "new_path": "Figures/shared/discrete_mode/vertical/results",
+      "file_count": 15,
+      "byte_count": 14471221,
+      "content_digest_before": "9c83cd28d8484cba243fae3b162cf6f74498d8211c87d2d71bad1199af54391c",
+      "content_digest_after": "9c83cd28d8484cba243fae3b162cf6f74498d8211c87d2d71bad1199af54391c",
+      "supporting_files": {
+        "summary": {
+          "old_path": "FigS6/summary.csv",
+          "new_path": "Figures/shared/discrete_mode/vertical/summary.csv"
+        },
+        "calculation_validation": {
+          "old_path": "FigS6/validation.txt",
+          "new_path": "Figures/shared/discrete_mode/vertical/calculation_validation.txt"
+        }
+      }
+    }
+  ],
+  "main_figure_4_selection": [
+    "zero_zero/results/outside_S2.0.npz",
+    "zero_zero/results/N1_S2.0.npz",
+    "zero_zero/results/N2_S2.0.npz",
+    "zero_zero/results/N4_S2.0.npz",
+    "zero_zero/results/N8_S2.0.npz",
+    "vertical/results/N1_S2.0.npz",
+    "vertical/results/N2_S2.0.npz",
+    "vertical/results/N4_S2.0.npz",
+    "vertical/results/N8_S2.0.npz"
+  ],
+  "plot_only_command": "python3 Figures/Main/Fig4/plot_Fig4.py"
+}

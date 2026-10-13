@@ -1,0 +1,29 @@
+Returned Frenkel-dimer HEOM run validation
+status = passed
+cases = 9
+completed_steps_per_case = 32000
+positive_frequency_points_per_case = 16000
+energy_range_eV = 0.0000 to 3.1998
+energy_spacing_meV = 0.2
+response_conversion = energy*27.211397; intensity/27.211397
+individual_figures_normalization = none
+combined_figure_normalization = each HEOM and SCBA spectrum has unit area on 0.8000 to 3.1998 eV
+combined_figure = figures/heom_scba_all_J_area_matched.{pdf,png}
+known_initialization_message = iado=0, Error greater than 1; nonfatal
+failed_submissions_directory = ignored
+
+Per-case diagnostics:
+J=-100 meV: peak=1.9164 eV, FWHM=47.76 meV, max_nddo=476/1000000, max_lddo=9/20, tail=3.813e-10, area/pi=0.999652113
+J=-50 meV: peak=1.9638 eV, FWHM=49.87 meV, max_nddo=470/1000000, max_lddo=10/20, tail=3.097e-10, area/pi=0.999635973
+J=-25 meV: peak=1.9866 eV, FWHM=55.96 meV, max_nddo=447/1000000, max_lddo=11/20, tail=2.837e-10, area/pi=0.999627064
+J=-12.4 meV: peak=1.9992 eV, FWHM=65.47 meV, max_nddo=387/1000000, max_lddo=11/20, tail=2.018e-10, area/pi=0.999622343
+J=0 meV: peak=2.0166 eV, FWHM=76.26 meV, max_nddo=239/1000000, max_lddo=11/20, tail=2.305e-10, area/pi=0.999617540
+J=12.4 meV: peak=2.0364 eV, FWHM=73.82 meV, max_nddo=379/1000000, max_lddo=11/20, tail=1.058e-10, area/pi=0.999612573
+J=25 meV: peak=2.0512 eV, FWHM=64.88 meV, max_nddo=421/1000000, max_lddo=10/20, tail=1.054e-10, area/pi=0.999607355
+J=50 meV: peak=2.0764 eV, FWHM=56.92 meV, max_nddo=444/1000000, max_lddo=10/20, tail=4.801e-10, area/pi=0.999596455
+J=100 meV: peak=2.1252 eV, FWHM=52.29 meV, max_nddo=433/1000000, max_lddo=8/20, tail=4.356e-10, area/pi=0.999572270
+
+All checksums passed; every production log reached iteration 31999.
+No NaN, fatal error, OOM, hierarchy-cap contact, or transform truncation was found.
+Tiny negative response values are numerical Fourier ringing below 2.5e-6 of peak.
+Formal convergence versus a tighter Pade/ferr calculation was not tested here.

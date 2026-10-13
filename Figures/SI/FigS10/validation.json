@@ -1,0 +1,26 @@
+{
+  "active_input_count": 40,
+  "active_input_sha256": "4af5c71c6738ef0e8d88f6fde822e402da1ff88f4061741e7b10dc5441c50d3b",
+  "benchmark_up_series": 5,
+  "largest_normalized_pair_peak": 1.2247095814702122,
+  "maximum_area_ratio_error": 2.220446049250313e-16,
+  "method_style": "HEOM light-blue fill; SCBA red dashed",
+  "minimum_interpair_clearance": 0.08000000000000007,
+  "offset_spectrum_pairs": 9,
+  "output": "Figures/SI/FigS10/FigS10.pdf",
+  "pair_offset_step": 1.3047095814702123,
+  "role": "SI detuning spectra and UP linewidth",
+  "scba_area_match_factors": {
+    "omega_c=1.83 eV": 3.999484267811639,
+    "omega_c=1.88 eV": 3.999483353165685,
+    "omega_c=1.93 eV": 3.999481853636266,
+    "omega_c=1.98 eV": 3.9994804812900533,
+    "omega_c=2.03 eV": 3.9994788614018457,
+    "omega_c=2.08 eV": 3.9994767037201777,
+    "omega_c=2.13 eV": 3.999473282344961,
+    "omega_c=2.18 eV": 3.9994691709204213,
+    "omega_c=2.23 eV": 3.9994613055266317
+  },
+  "scba_up_curves": 8,
+  "validation": "PASS"
+}

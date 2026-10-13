@@ -1,0 +1,10 @@
+case_dir,J_meV,bare_bright_energy_eV,bare_dark_energy_eV,input_file,batch_file
+J_m100_meV,-100,1.930000000,2.130000000,J_m100_meV/input.json,J_m100_meV/sbatch_HEOM.sh
+J_m50_meV,-50,1.980000000,2.080000000,J_m50_meV/input.json,J_m50_meV/sbatch_HEOM.sh
+J_m25_meV,-25,2.005000000,2.055000000,J_m25_meV/input.json,J_m25_meV/sbatch_HEOM.sh
+J_m12p4_meV,-12.4,2.017600000,2.042400000,J_m12p4_meV/input.json,J_m12p4_meV/sbatch_HEOM.sh
+J_p0_meV,0,2.030000000,2.030000000,J_p0_meV/input.json,J_p0_meV/sbatch_HEOM.sh
+J_p12p4_meV,12.4,2.042400000,2.017600000,J_p12p4_meV/input.json,J_p12p4_meV/sbatch_HEOM.sh
+J_p25_meV,25,2.055000000,2.005000000,J_p25_meV/input.json,J_p25_meV/sbatch_HEOM.sh
+J_p50_meV,50,2.080000000,1.980000000,J_p50_meV/input.json,J_p50_meV/sbatch_HEOM.sh
+J_p100_meV,100,2.130000000,1.930000000,J_p100_meV/input.json,J_p100_meV/sbatch_HEOM.sh

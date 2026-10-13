@@ -1,0 +1,71 @@
+{
+  "case_count": 3,
+  "checks": [
+    {
+      "name": "production_reproduces_stored_w",
+      "pass": true,
+      "threshold": 5e-10,
+      "value": 0.0
+    },
+    {
+      "name": "numerical_delta_below_one_percent_of_displayed_error",
+      "pass": true,
+      "threshold": 0.01,
+      "value": 0.00014550312279895192
+    },
+    {
+      "name": "scba_absolute_fixed_point_residual",
+      "pass": true,
+      "threshold": 1e-09,
+      "value": 1.1102230246251565e-16
+    },
+    {
+      "name": "scba_relative_fixed_point_residual",
+      "pass": true,
+      "threshold": 1e-08,
+      "value": 1.8916994137233683e-16
+    },
+    {
+      "name": "retarded_self_energy_causality",
+      "pass": true,
+      "threshold": 5e-10,
+      "value": 0.0
+    }
+  ],
+  "command": "python3 Figures/common/dimer/single_mode/validate_targeted_convergence.py",
+  "generated_utc": "2026-09-29T03:25:51+00:00",
+  "maxima": {
+    "absolute_combined_delta_w": 5.158216868611509e-06,
+    "absolute_cutoff_delta_w": 2.5326962749261384e-15,
+    "absolute_half_step_delta_w": 5.158216858952569e-06,
+    "ed_cutoff_unit_area_l1": 2.619504023511014e-12,
+    "ed_cutoff_w_over_nu0": 3.8056640038506904e-14,
+    "ed_grid_unit_area_l1": 0.000445414064485749,
+    "ed_grid_w_over_nu0": 1.755828338876179e-06,
+    "numerical_delta_w_over_displayed_w": 0.00014550312279895192,
+    "positive_im_sigma_eV": 0.0,
+    "scba_abs_residual_eV": 1.1102230246251565e-16,
+    "scba_grid_unit_area_l1": 0.0,
+    "scba_grid_w_over_nu0": 0.0,
+    "scba_relative_residual": 1.8916994137233683e-16,
+    "stored_w_absolute_difference": 0.0
+  },
+  "maximum_numerical_delta_w": 5.158216868611509e-06,
+  "pass": true,
+  "profile": {
+    "analysis_x": [
+      -18.0,
+      18.0
+    ],
+    "eta_over_nu0": 0.005,
+    "half_step_dx": 0.001,
+    "increased_n_vib": 12,
+    "internal_x": [
+      -32.0,
+      24.0
+    ],
+    "production_dx": 0.002,
+    "production_n_vib": 10
+  },
+  "schema_version": "figs6_s7_targeted_convergence_v1"
+}
