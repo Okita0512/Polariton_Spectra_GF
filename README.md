@@ -5,7 +5,7 @@ Created on 10/12/2026
 This repository contains the main-text and Supporting Information figure
 folders, numerical drivers, processed data, validation records, and
 figure-reproduction code for the Green's-function polariton-spectra
-calculations.
+calculations (see https://arxiv.org/abs/2610.20912).
 
 All published external figures can be rebuilt from the committed inputs
 without rerunning the expensive solvers. The SCBA, exact-diagonalization,
